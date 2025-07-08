@@ -5,12 +5,13 @@ import InjectableSvg from "@/components/common/InjectableSvg"
 import about_img1 from "@/assets/img/images/about_img01.png"
 import about_img2 from "@/assets/img/images/about_img02.png"
 import about_img3 from "@/assets/img/images/about_img03.png"
-import author1 from "@/assets/img/images/author01.png"
-import author2 from "@/assets/img/images/author01.png"
-import author3 from "@/assets/img/images/author01.png"
-import author4 from "@/assets/img/images/author01.png"
+// import author1 from "@/assets/img/images/author01.png"
+// import author2 from "@/assets/img/images/author01.png"
+// import author3 from "@/assets/img/images/author01.png"
+// import author4 from "@/assets/img/images/author01.png"
 import shape_1 from "@/assets/img/images/about_shape.png"
-
+import review1 from "@/assets/img/images/review1.jpeg"
+import review2 from "@/assets/img/images/review2.jpeg"
 const About = () => {
    return (
      <section className="about__area pt-120 pb-120">
@@ -45,10 +46,10 @@ const About = () => {
             <div className="about__review-wrap">
               <div className="about__review-box">
                 <div className="about__review-author">
-                  <Image src={author1} alt="img" />
-                  <Image src={author2} alt="img" />
-                  <Image src={author3} alt="img" />
-                  <Image src={author4} alt="img" />
+                  <Image src={review1} alt="img" />
+                  <Image src={review2} alt="img" />
+                  {/* <Image src={author3} alt="img" />
+                  <Image src={author4} alt="img" /> */}
                 </div>
                 <div className="review">
                   <i className="fas fa-star"></i>

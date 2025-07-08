@@ -34,7 +34,7 @@ const HeaderThree = () => {
                                  </div>
                                  <div className="content">
                                     <span>Emergency Call:</span>
-                                    <Link href="tel:0123456789">(205) 555-0100</Link>
+                                    <Link href="tel:+97147777222">+97147777222</Link>
                                  </div>
                               </li>
                               <li className="header-btn">

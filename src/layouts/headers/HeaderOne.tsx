@@ -55,7 +55,7 @@ const HeaderOne = () => {
                                  </div>
                                  <div className="content">
                                     <span>Emergency Call:</span>
-                                    <Link href="tel:0123456789">(205) 555-0100</Link>
+                                    <Link href="tel:+97147777222">+97147777222</Link>
                                  </div>
                               </li>
                               <li className="header-btn"><Link href="/contact" className="btn"><i className="flaticon-uptrend"></i>Track Order</Link></li>

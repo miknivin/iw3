@@ -50,7 +50,7 @@ const ServiceSidebar = () => {
                <div className="sidebar__contact">
                   <h2 className="title">
  <br /> for Business</h2>
-                  <Link href="tle:0123456789" className="sidebar__phone"><i className="flaticon-telephone"></i>(123) 565-8901</Link>
+                  <Link href="tle:0123456789" className="sidebar__phone"><i className="flaticon-telephone"></i>+97147777222</Link>
                   <Link href="/contact" className="btn">Contact With us <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
                </div>
                <div className="sidebar__shape" style={{ backgroundImage: `url(/assets/img/services/services_sidebar_shape.png)` }}></div>

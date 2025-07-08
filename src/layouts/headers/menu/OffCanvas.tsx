@@ -21,12 +21,14 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
             <div className="offCanvas__side-info mb-30">
                <div className="contact-list mb-30">
                   <h4>Office Address</h4>
-                  <p>  #504, Riddhi Tower, Film City Road Goregaon East<br /> Mumbai - 400097, India</p>
+                  <p> IW3 Infralog LLC-FZ
+Meydan Free Zone, 
+Nad Al Sheba, P.O. Box 35195<br />  Dubai, UAE</p>
                </div>
                <div className="contact-list mb-30">
                   <h4>Phone Number</h4>
-                  <p></p>
-                  <p></p>
+                  <p>Tel:+97147777222</p>
+                  <p>M : +971 56 2212979</p>
                </div>
                <div className="contact-list mb-30">
                   <h4>Email Address</h4>

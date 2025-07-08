@@ -9,7 +9,7 @@ import service_6 from "@/assets/img/services/services_img08.jpg"
 import service_7 from "@/assets/img/services/services_img09.jpg"
 
 interface DataType {
-   id: any;
+   id: string | number;
    page: string;
    img?: StaticImageData;
    icon: string;

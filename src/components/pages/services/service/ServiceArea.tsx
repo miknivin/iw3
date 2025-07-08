@@ -16,7 +16,7 @@ const ServiceArea = () => {
                   <div className="services__thumb-three">
                     <Link href={`/services-details/${item.id}`}>
                       <Image 
-                        src={item.img} 
+                        src={item.img ?? "/assets/img/default_service.jpg"} 
                         alt={item.title} 
                         width={370}  // Set appropriate dimensions
                         height={250}

@@ -22,7 +22,7 @@ const ContactArea = () => {
                   <div className="contact__description text-center mb-5">
                      <h2 className="title">Get in Touch</h2>
                      <p className="contact__description-text">
-                        Ready to take your business to the next level? Get in touch with us today to explore how our expertise in <strong>infrastructure</strong>, <strong>logistics</strong>, <strong>procurement</strong>, and <strong>consulting</strong> can drive your success. Whether you're expanding globally, streamlining operations, or seeking transparent pricing and reliable support, our team is available 24/7 to provide tailored solutions. Contact us now to discuss your needs and discover how we can support your growth with seamless, end-to-end services.
+                        Ready to take your business to the next level? Get in touch with us today to explore how our expertise in <strong>infrastructure</strong>, <strong>logistics</strong>, <strong>procurement</strong>, and <strong>consulting</strong> can drive your success. Whether you&#39;re expanding globally, streamlining operations, or seeking transparent pricing and reliable support, our team is available 24/7 to provide tailored solutions. Contact us now to discuss your needs and discover how we can support your growth with seamless, end-to-end services.
                      </p>
                   </div>
                </div>
@@ -30,10 +30,13 @@ const ContactArea = () => {
             <div className="row">
                <div className="col-lg-4 col-sm-6">
                   <div className="contact__info-item">
-                     <h4 className="title">Office in New York</h4>
-                     <p className="info-one">#504, Riddhi Tower, Film City Road Goregaon East
-Mumbai - 400097,  <br /> India</p>
-                     <h4 className="title"><Link href="tel:0123456789">+(09) 3456 7890</Link></h4>
+                     <h4 className="title">Office in Dubai</h4>
+                     <p className="info-one">IW3 Infralog LLC-FZ
+Meydan Free Zone, 
+Nad Al Sheba, P.O. Box 35195 
+Mumbai - 400097,  <br /> Dubai, UAE</p>
+                     <p className="contact__description-text"><Link href="tel:+97147777222">+97147777222</Link></p>
+                      <p className="contact__description-text"><Link href="tel:+971 56 2212979">+971 56 2212979</Link></p>
                      <p className="info-two">Monday – saturday: 8:00 am-6:00 pm<br />sunday closed</p>
                      <Link href="mailto:info@iw3.in">info@iw3.in</Link>
                   </div>

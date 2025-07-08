@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 
-import achieve_img from "@/assets/img/banner/banner_iCONT.png/";
+import achieve_img from "@/assets/img/banner/banner_iCONT.png";
 import shape from "@/assets/img/images/achieved_shape.png";
 
 const Achieved: React.FC = () => {

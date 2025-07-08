@@ -7,13 +7,13 @@ import { Autoplay, Navigation, Thumbs } from 'swiper/modules';
 import { Swiper as SwiperClass } from 'swiper/types';
 import InjectableSvg from "@/components/common/InjectableSvg";
 
-import author_1 from "@/assets/img/images/author01.png"
-import author_2 from "@/assets/img/images/author02.png"
-import author_3 from "@/assets/img/images/author03.png"
-import author_4 from "@/assets/img/images/author04.png"
+import author_1 from "@/assets/img/images/review1.jpeg"
+import author_2 from "@/assets/img/images/review2.jpeg"
+// import author_3 from "@/assets/img/images/author03.png"
+// import author_4 from "@/assets/img/images/author04.png"
 import shape from "@/assets/img/images/testimonial_shape.png"
 
-const author_data: StaticImageData[] = [author_1, author_2, author_3, author_4];
+const author_data: StaticImageData[] = [author_1, author_2,];
 
 interface DataType {
    id: number;
@@ -25,28 +25,28 @@ interface DataType {
 const testi_data: DataType[] = [
    {
       id: 1,
-      title: "Ralph Edwards",
-      designation: "CEO, logistex Agency",
-      desc: (<>“ Morem ipsum dolor sit amet, consectetur adipisc Service awing elita florai sum dolor sit amet, consectetur area recall edBorem ipsum dolor sit amet, consectetur.”</>),
+      title: "Daniel",
+      designation: "",
+      desc: (<>“ Your team  emergency air logistics solution saved our automotive production line from a 3-day shutdown - the precision in coordinating those charter flights with zero margin for error was remarkable.”</>),
    },
    {
       id: 2,
-      title: "Jone Cooper",
-      designation: "CEO, logistex Agency",
-      desc: (<>“ Morem ipsum dolor sit amet, consectetur adipisc Service awing elita florai sum dolor sit amet, consectetur area recall edBorem ipsum dolor sit amet, consectetur.”</>),
+      title: "Jennifer",
+      designation: "",
+      desc: (<>“ Your heavy-lift AN-124 operations delivered our 80-ton power plant components to mountainous regions no other carrier could access - completing the energy project 3 months ahead of schedule.”</>),
    },
-   {
-      id: 3,
-      title: "Eleanor Pena",
-      designation: "CEO, logistex Agency",
-      desc: (<>“ Morem ipsum dolor sit amet, consectetur adipisc Service awing elita florai sum dolor sit amet, consectetur area recall edBorem ipsum dolor sit amet, consectetur.”</>),
-   },
-   {
-      id: 4,
-      title: "Floyd Miles",
-      designation: "CEO, logistex Agency",
-      desc: (<>“ Morem ipsum dolor sit amet, consectetur adipisc Service awing elita florai sum dolor sit amet, consectetur area recall edBorem ipsum dolor sit amet, consectetur.”</>),
-   },
+   // {
+   //    id: 3,
+   //    title: "Eleanor Pena",
+   //    designation: "CEO, logistex Agency",
+   //    desc: (<>“ Morem ipsum dolor sit amet, consectetur adipisc Service awing elita florai sum dolor sit amet, consectetur area recall edBorem ipsum dolor sit amet, consectetur.”</>),
+   // },
+   // {
+   //    id: 4,
+   //    title: "Floyd Miles",
+   //    designation: "CEO, logistex Agency",
+   //    desc: (<>“ Morem ipsum dolor sit amet, consectetur adipisc Service awing elita florai sum dolor sit amet, consectetur area recall edBorem ipsum dolor sit amet, consectetur.”</>),
+   // },
 ];
 
 interface PropsType {

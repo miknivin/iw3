@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect, useRef } from 'react';
 import Vivus from 'vivus';
+import Image from 'next/image';
 
 interface InjectableSvgProps {
    src: string;
@@ -48,8 +49,7 @@ const InjectableSvg: React.FC<InjectableSvgProps> = ({ src, alt = '', className 
 
       fetchAndInjectSvg();
    }, [src]);
-
-   return <img ref={imgRef} src={src} alt={alt} className={`injectable ${className}`} />;
+   return <Image ref={imgRef} src={src} alt={alt} className={`injectable ${className}`} width={24} height={24} unoptimized />;
 };
 
 export default InjectableSvg;

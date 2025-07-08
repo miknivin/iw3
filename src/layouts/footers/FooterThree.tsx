@@ -55,7 +55,7 @@ const FooterThree = () => {
                 </div>
                 <div className="copyright-text copyright-text-three">
                   <p>
-                    Copyright <a href="index.html">©logistex</a> | All Right
+                    Copyright <a href="index.html">©iw3</a> | All Right
                     Reserved
                   </p>
                 </div>
@@ -118,12 +118,14 @@ const FooterThree = () => {
                     <li>
                       <i className="flaticon-location-1"></i>
                       <p>
-                        58 Street Commercial Road <br /> Fratton, Australia
+                     IW3 Infralog LLC-FZ
+Meydan Free Zone, 
+Nad Al Sheba, P.O. Box 35195   <br /> Dubai, UAE
                       </p>
                     </li>
                     <li>
                       <i className="flaticon-telephone"></i>
-                      <a href="tel:0123456789">+123 888 9999</a>
+                      <a href="tel:+97147777222">+97147777222</a>
                     </li>
 
                     <li className="flex items-start gap-3">

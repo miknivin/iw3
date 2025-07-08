@@ -121,14 +121,16 @@ const FooterOne = () => {
                     <li>
                       <i className="flaticon-location-1"></i>
                       <p>
-                        #504, Riddhi Tower, Film City Road Goregaon East
+                        IW3 Infralog LLC-FZ
+Meydan Free Zone, 
+Nad Al Sheba, P.O. Box 35195
                         <br />
-                        Mumbai - 400097, India
+                      Dubai, UAE
                       </p>
                     </li>
                     <li>
                       <i className="flaticon-telephone"></i>
-                      <Link href="tel:0123456789">+123 888 9999</Link>
+                      <Link href="tel:+97147777222">+97147777222</Link>
                     </li>
 
                     <li className="flex items-start gap-3">

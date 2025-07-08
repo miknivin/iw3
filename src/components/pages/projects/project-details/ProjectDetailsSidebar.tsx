@@ -65,10 +65,10 @@ const ProjectDetailsSidebar = () => {
           </div>
           <div className="sidebar__contact">
             <h2 className="title">
-              Logistics & Cargo <br /> for Business
+              For Business<br /> for Business
             </h2>
             <Link href="tle:0123456789" className="sidebar__phone">
-              <i className="flaticon-telephone"></i>(123) 565-8901
+              <i className="flaticon-telephone"></i>+97147777222
             </Link>
             <Link href="/contact" className="btn">
               Contact With us{" "}
