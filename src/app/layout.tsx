@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={isDev}>
       <head>
-        <meta name="description" content="Logistex - Transport & Logistics React Next js Template" />
+        <meta name="description" content="iw3 - Transport & Logistics React Next js Template" />
         <link rel="icon" href="/favicon.png" sizes="any" />
         ``
       </head>

@@ -2,7 +2,7 @@ import Wrapper from "@/layouts/Wrapper";
 import HomeOne from "../components/homes/home-one/HomeOne";
 
 export const metadata = {
-  title: "Logistex - Transport & Logistics React Next js Template",
+  title: "iw3 ",
 };
 const page = () => {
   return (

@@ -15,7 +15,7 @@ const Service = () => {
                <div className="col-xl-5 col-lg-6 col-md-8">
                   <div className="section__title mb-50 mb-md-30">
                      <span className="sub-title">OUR BEST SERVICES</span>
-                     <h2 className="title">Covering All Logistics Solutions Fro you</h2>
+                     <h2 className="title">Covering All Logistics Solutions for you</h2>
                   </div>
                </div>
                <div className="col-xl-7 col-lg-6 col-md-4">

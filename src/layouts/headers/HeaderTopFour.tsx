@@ -16,10 +16,10 @@ Meydan Free Zone</li>
                </div>
                <div className="col-xl-5">
                   <div className="tg-header__top-right tg-header__top-right-two">
-                     <ul className="tg-header__top-menu tg-header__top-menu-two list-wrap">
+                     {/* <ul className="tg-header__top-menu tg-header__top-menu-two list-wrap">
                         <li><Link href="/contact">Help Center</Link></li>
                         <li><Link href="/contact">Find Store</Link></li>
-                     </ul>
+                     </ul> */}
                      <div className="tg-header__top-social tg-header__top-social-two">
                         <span>Follow Us On:</span>
                         <ul className="list-wrap">
