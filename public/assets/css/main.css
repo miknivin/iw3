@@ -57,7 +57,7 @@
   --tg-color-yellow-light: #FFB930;
   --tg-color-yellow-light-2: #DED9CE;
   --tg-color-white-default: #ffffff;
-  --tg-color-sky-blue: #2aa232;
+  --tg-color-sky-blue: #7EA7C8;
   --tg-color-sky-blue-two: #7E93A4;
   --tg-color-gray-1: #DCDCEC;
   --tg-color-gray-2: #C3C3EC;
@@ -2138,7 +2138,7 @@ body .theme-red .scroll__top:hover {
 .counter__icon {
   font-size: 70px;
   line-height: 0;
-  color: #2aa232;
+  color: #29ABE2;
 }
 @media (max-width: 1199.98px) {
   .counter__icon {
@@ -5120,7 +5120,7 @@ body .theme-red .scroll__top:hover {
 }
 
 .experience__box {
-  background: var(  --tg-theme-secondary);
+  background: var(--tg-theme-secondary);
   padding: 25px 30px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -5154,7 +5154,7 @@ body .theme-red .scroll__top:hover {
   transform: translateY(-50%);
   width: 2px;
   height: 46px;
-  background: ;
+  background: #56C9FA;
 }
 
 .section-py-120 {
