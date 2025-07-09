@@ -1,14 +1,15 @@
 import Breadcumb from "@/components/common/Breadcumb"
-import HeaderFour from "@/layouts/headers/HeaderFour"
+
 import ServiceArea from "./ServiceArea"
 import FooterTwo from "@/layouts/footers/FooterTwo"
 import ScrollToTop from "@/components/common/ScrollToTop"
+import HeaderOne from "@/layouts/headers/HeaderOne"
 
 const Service = () => {
    return (
       <div className="theme-red">
          <ScrollToTop />
-         <HeaderFour />
+         <HeaderOne />
          <main className="fix">
             <Breadcumb title="Our Services" sub_title="Services" />
             <ServiceArea />

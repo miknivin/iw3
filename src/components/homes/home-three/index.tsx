@@ -1,4 +1,4 @@
-import HeaderThree from "@/layouts/headers/HeaderThree"
+
 import Hero from "./Hero"
 import Features from "./Features"
 import About from "./About"
@@ -14,12 +14,13 @@ import Faq from "./Faq"
 import Blog from "../home-two/Blog"
 import FooterThree from "@/layouts/footers/FooterThree"
 import ScrollToTop from "@/components/common/ScrollToTop"
+import HeaderOne from "@/layouts/headers/HeaderOne"
 
 const HomeThree = () => {
    return (
       <div className="theme-orange">
          <ScrollToTop />
-         <HeaderThree />
+         <HeaderOne />
          <main className="fix">
             <Hero />
             <Features />

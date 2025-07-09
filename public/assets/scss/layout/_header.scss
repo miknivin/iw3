@@ -14,8 +14,8 @@
 
 .tg-header {
     &__top {
-        background: var(--tg-heading-color);
-        padding: 10px 25px;
+       background: #000038;
+padding: 10px 25px;
         @media #{$xs} {
             display: none;
         }

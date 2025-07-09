@@ -2,7 +2,7 @@ import Pricing from "@/components/pages/pricing";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Pricing Logistex - Transport & Logistics React Next js Template",
+   title: "iw3",
 };
 const page = () => {
    return (

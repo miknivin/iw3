@@ -1,14 +1,15 @@
 import ScrollToTop from "@/components/common/ScrollToTop"
 import FooterTwo from "@/layouts/footers/FooterTwo"
-import HeaderFour from "@/layouts/headers/HeaderFour"
+
 import ProjectArea from "./ProjectArea"
 import Breadcumb from "@/components/common/Breadcumb"
+import HeaderOne from "@/layouts/headers/HeaderOne"
 
 const Project = () => {
    return (
       <div className="theme-red">
          <ScrollToTop />
-         <HeaderFour />
+         <HeaderOne />
          <main className="fix">
             <Breadcumb title="Portfolio" sub_title="Portfolio" />
             <ProjectArea />

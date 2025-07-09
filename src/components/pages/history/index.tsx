@@ -1,17 +1,18 @@
 import Breadcumb from "@/components/common/Breadcumb"
-import HeaderFour from "@/layouts/headers/HeaderFour"
+
 import HistoryArea from "./HistoryArea"
 import MarqueeArea from "@/components/homes/home-one/Marquee"
 import Testimonial from "./Testimonial"
 import Brand from "@/components/homes/home-one/Brand"
 import FooterTwo from "@/layouts/footers/FooterTwo"
 import ScrollToTop from "@/components/common/ScrollToTop"
+import HeaderOne from "@/layouts/headers/HeaderOne"
 
 const History = () => {
    return (
       <div className="theme-red">
          <ScrollToTop />
-         <HeaderFour />
+         <HeaderOne />
          <main className="fix">
             <Breadcumb title="Our Company History" sub_title="History" />
             <HistoryArea />
