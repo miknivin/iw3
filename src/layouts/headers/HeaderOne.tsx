@@ -58,7 +58,7 @@ const HeaderOne = () => {
                                     <Link href="tel:+97147777222">+97147777222</Link>
                                  </div>
                               </li>
-                              <li className="header-btn"><Link href="/contact" className="btn"><i className="flaticon-uptrend"></i>Track Order</Link></li>
+                              {/* <li className="header-btn"><Link href="/contact" className="btn"><i className="flaticon-uptrend"></i>Track Order</Link></li> */}
                            </ul>
                         </div>
                         <div className="mobile-nav-toggler" onClick={() => setIsActive(true)}>
