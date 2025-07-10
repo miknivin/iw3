@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={isDev}>
       <head>
-        <meta name="description" content="iw3 " />
+        <meta name="description" content="iw3" />
         <link
           rel="icon"
           type="image/x-icon"
