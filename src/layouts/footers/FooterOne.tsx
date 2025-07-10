@@ -1,5 +1,5 @@
 "use client";
-import InjectableSvg from "@/components/common/InjectableSvg";
+// import InjectableSvg from "@/components/common/InjectableSvg";
 import Image from "next/image";
 import Link from "next/link";
 

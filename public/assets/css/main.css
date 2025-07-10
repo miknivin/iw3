@@ -4950,6 +4950,7 @@ body .theme-red .scroll__top:hover {
 }
 .about__review-wrap {
   flex-grow: 1;
+  
 }
 .about__review-author {
   display: -webkit-box;
