@@ -22,7 +22,7 @@ const FooterOne = () => {
               </div>
             </div>
             <div className="col-lg-5">
-              <div className="cta__btn text-end">
+              {/* <div className="cta__btn text-end">
                 <Link href="/services" className="btn btn-two">
                   Request a Quote{" "}
                   <InjectableSvg
@@ -31,7 +31,7 @@ const FooterOne = () => {
                     className="injectable"
                   />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="cta__shape">
