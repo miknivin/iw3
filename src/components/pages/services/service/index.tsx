@@ -1,9 +1,10 @@
 import Breadcumb from "@/components/common/Breadcumb"
 
 import ServiceArea from "./ServiceArea"
-import FooterTwo from "@/layouts/footers/FooterTwo"
+
 import ScrollToTop from "@/components/common/ScrollToTop"
 import HeaderOne from "@/layouts/headers/HeaderOne"
+import FooterOne from "@/layouts/footers/FooterOne"
 
 const Service = () => {
    return (
@@ -14,7 +15,7 @@ const Service = () => {
             <Breadcumb title="Our Services" sub_title="Services" />
             <ServiceArea />
          </main>
-         <FooterTwo />
+         <FooterOne />
       </div>
    )
 }

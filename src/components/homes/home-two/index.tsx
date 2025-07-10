@@ -1,4 +1,4 @@
-import FooterTwo from "@/layouts/footers/FooterTwo"
+
 import HeaderTwo from "@/layouts/headers/HeaderTwo"
 import Hero from "./Hero"
 import Newsletter from "./Newsletter"
@@ -16,6 +16,7 @@ import Testimonial from "../home-one/Testimonial"
 import Brand from "../home-one/Brand"
 import Blog from "./Blog"
 import ScrollToTop from "@/components/common/ScrollToTop"
+import FooterOne from "@/layouts/footers/FooterOne"
 
 const HomeTwo = () => {
    return (
@@ -41,7 +42,7 @@ const HomeTwo = () => {
             <Brand style={false} />
             <Blog />
          </main>
-         <FooterTwo />
+         <FooterOne />
       </div>
    )
 }

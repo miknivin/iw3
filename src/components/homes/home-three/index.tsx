@@ -12,9 +12,10 @@ import Team from "./Team"
 import Testimonial from "../home-one/Testimonial"
 import Faq from "./Faq"
 import Blog from "../home-two/Blog"
-import FooterThree from "@/layouts/footers/FooterThree"
+
 import ScrollToTop from "@/components/common/ScrollToTop"
 import HeaderOne from "@/layouts/headers/HeaderOne"
+import FooterOne from "@/layouts/footers/FooterOne"
 
 const HomeThree = () => {
    return (
@@ -36,7 +37,7 @@ const HomeThree = () => {
             <Faq />
             <Blog />
          </main>
-         <FooterThree />
+         <FooterOne />
       </div>
    )
 }

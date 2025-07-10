@@ -58,7 +58,7 @@ const FooterOne = () => {
                     Consulting Services in the most secure and expedited manner
                   </p>
                 </div>
-                <form
+                {/* <form
                   onSubmit={(e) => e.preventDefault()}
                   className="footer__newsletter"
                 >
@@ -67,7 +67,7 @@ const FooterOne = () => {
                     <button type="submit">Subscribe</button>
                   </div>
                   <span>We don’t send you any spam</span>
-                </form>
+                </form> */}
               </div>
             </div>
             <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6">

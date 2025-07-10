@@ -3,9 +3,10 @@ import ScrollToTop from "@/components/common/ScrollToTop"
 
 import Mission from "./Mission"
 import Vision from "./Vision"
-import FooterTwo from "@/layouts/footers/FooterTwo"
+
 import CTA from "./CTA"
 import HeaderOne from "@/layouts/headers/HeaderOne"
+import FooterOne from "@/layouts/footers/FooterOne"
 
 const WhoWeAre = () => {
    return (
@@ -17,7 +18,7 @@ const WhoWeAre = () => {
             <Mission />
             <Vision />
             <CTA />
-            <FooterTwo style={true} />
+            <FooterOne />
          </main>
       </div>
    )

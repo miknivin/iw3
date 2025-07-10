@@ -11,9 +11,10 @@ import Project from "./Project"
 import WorkArea from "../home-two/WorkArea"
 import CTA from "../home-two/CTA"
 import Blog from "./Blog"
-import FooterTwo from "@/layouts/footers/FooterTwo"
+
 import Testimonial from "./Testimonial"
 import HeaderOne from "@/layouts/headers/HeaderOne"
+import FooterOne from "@/layouts/footers/FooterOne"
 
 const HomeFour = () => {
    return (
@@ -33,7 +34,7 @@ const HomeFour = () => {
             <WorkArea />
             <CTA />
             <Blog />
-            <FooterTwo />
+            <FooterOne />
          </main>
       </div>
    )

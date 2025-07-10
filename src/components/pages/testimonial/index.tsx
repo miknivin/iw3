@@ -1,9 +1,10 @@
 import Breadcumb from "@/components/common/Breadcumb"
 import ScrollToTop from "@/components/common/ScrollToTop"
-import FooterTwo from "@/layouts/footers/FooterTwo"
+
 
 import Testimonial from "./Testimonial"
 import HeaderOne from "@/layouts/headers/HeaderOne"
+import FooterOne from "@/layouts/footers/FooterOne"
 
 const TestimonialMain = () => {
   return (
@@ -14,7 +15,7 @@ const TestimonialMain = () => {
         <Breadcumb title="Pricing plan" sub_title="Pricing" />
         <Testimonial />
       </main>
-      <FooterTwo />
+      <FooterOne />
     </div>
   )
 }

@@ -4,9 +4,10 @@ import HistoryArea from "./HistoryArea"
 import MarqueeArea from "@/components/homes/home-one/Marquee"
 import Testimonial from "./Testimonial"
 import Brand from "@/components/homes/home-one/Brand"
-import FooterTwo from "@/layouts/footers/FooterTwo"
+
 import ScrollToTop from "@/components/common/ScrollToTop"
 import HeaderOne from "@/layouts/headers/HeaderOne"
+import FooterOne from "@/layouts/footers/FooterOne"
 
 const History = () => {
    return (
@@ -20,7 +21,7 @@ const History = () => {
             <Testimonial />
             <Brand />
          </main>
-         <FooterTwo />
+         <FooterOne />
       </div>
    )
 }

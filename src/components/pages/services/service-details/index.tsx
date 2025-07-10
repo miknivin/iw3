@@ -3,8 +3,9 @@ import ScrollToTop from "@/components/common/ScrollToTop"
 
 import ServiceDetailsArea from "./ServiceDetailsArea"
 import CTA from "../../who-we-are/CTA"
-import FooterTwo from "@/layouts/footers/FooterTwo"
+
 import HeaderOne from "@/layouts/headers/HeaderOne"
+import FooterOne from "@/layouts/footers/FooterOne"
 
 const ServiceDetails = () => {
    return (
@@ -16,7 +17,7 @@ const ServiceDetails = () => {
             <ServiceDetailsArea />
          </main>
          <CTA />
-         <FooterTwo style={true} />
+         <FooterOne />
       </div>
    )
 }

@@ -1,4 +1,4 @@
-import FooterTwo from "@/layouts/footers/FooterTwo"
+
 import Breadcumb from "../common/Breadcumb"
 import Brand from "../homes/home-one/Brand"
 import Testimonial from "../homes/home-one/Testimonial"
@@ -11,6 +11,7 @@ import FeaturesArea from "./FeaturesArea"
 
 import ScrollToTop from "../common/ScrollToTop"
 import HeaderOne from "@/layouts/headers/HeaderOne"
+import FooterOne from "@/layouts/footers/FooterOne"
 
 const About = () => {
    return (
@@ -27,7 +28,7 @@ const About = () => {
             {/* <Team style={false} /> */}
             <Testimonial style={true} />
             <Brand />
-            <FooterTwo />
+            <FooterOne />
          </main>
       </div>
    )

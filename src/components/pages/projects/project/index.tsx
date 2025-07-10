@@ -1,9 +1,10 @@
 import ScrollToTop from "@/components/common/ScrollToTop"
-import FooterTwo from "@/layouts/footers/FooterTwo"
+
 
 import ProjectArea from "./ProjectArea"
 import Breadcumb from "@/components/common/Breadcumb"
 import HeaderOne from "@/layouts/headers/HeaderOne"
+import FooterOne from "@/layouts/footers/FooterOne"
 
 const Project = () => {
    return (
@@ -14,7 +15,7 @@ const Project = () => {
             <Breadcumb title="Portfolio" sub_title="Portfolio" />
             <ProjectArea />
          </main>
-         <FooterTwo />
+         <FooterOne />
       </div>
    )
 }
