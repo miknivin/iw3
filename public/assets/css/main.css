@@ -272,13 +272,9 @@ body .theme-green {
   --tg-theme-primary: #289441; /* Bootstrap success green */
 }
 
-body .theme-red {
-  /* --tg-theme-secondary: #151515; */
-}
-
-body .theme-red {
+/* body .theme-red {
   --tg-heading-color: #151515;
-}
+} */
 
 body .theme-orange {
   --tg-theme-primary: #b3f927;

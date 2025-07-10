@@ -160,7 +160,7 @@ Nad Al Sheba, P.O. Box 35195
               </div>
             </div>
             <div className="col-md-5">
-              <div className="footer__social">
+              {/* <div className="footer__social">
                 <ul className="list-wrap">
                   <li>
                     <Link href="https://www.facebook.com/" target="_blank">
@@ -188,7 +188,7 @@ Nad Al Sheba, P.O. Box 35195
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

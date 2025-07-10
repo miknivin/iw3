@@ -45,9 +45,9 @@ const HeaderOne = () => {
                         <div className="tgmenu__action d-none d-md-flex">
                            <ul className="list-wrap">
                               <li className="header-search">
-                                 <a onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }} className="search-open-btn">
+                                 {/* <a onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }} className="search-open-btn">
                                     <i className="flaticon-search"></i>
-                                 </a>
+                                 </a> */}
                               </li>
                               <li className="header-contact">
                                  <div className="icon">

@@ -28,7 +28,7 @@ const FooterTwo = ({ style }: propsType) => {
                     Consulting Services in the most secure and expedited manner
                   </p>
                 </div>
-                <div className="footer__social footer__social-two">
+                {/* <div className="footer__social footer__social-two">
                   <ul className="list-wrap">
                     <li>
                       <Link href="https://www.facebook.com/" target="_blank">
@@ -56,7 +56,7 @@ const FooterTwo = ({ style }: propsType) => {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="copyright-text copyright-text-two">
                   <p>
                     Copyright <Link href="/">©iw3</Link> | All Right Reserved

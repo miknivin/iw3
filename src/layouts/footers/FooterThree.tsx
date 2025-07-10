@@ -24,7 +24,7 @@ const FooterThree = () => {
                     Consulting Services in the most secure and expedited manner
                   </p>
                 </div>
-                <div className="footer__social footer__social-three">
+                {/* <div className="footer__social footer__social-three">
                   <ul className="list-wrap">
                     <li>
                       <Link href="https://www.facebook.com/" target="_blank">
@@ -52,7 +52,7 @@ const FooterThree = () => {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="copyright-text copyright-text-three">
                   <p>
                     Copyright <a href="index.html">©iw3</a> | All Right

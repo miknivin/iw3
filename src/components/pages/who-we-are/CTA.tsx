@@ -15,10 +15,14 @@ const CTA = () => {
                <div className="cta__content-two">
                   <div className="content__left">
                      <h2 className="title">Would you Like to get The Best Transport Services?</h2>
-                     <p>Dapibus interdum senectus malesuada est nec morbi cursus.</p>
+                     <p>Experience top-notch travel with our premier transport services, tailored for your comfort and convenience.</p>
                   </div>
                   <div className="cta__btn-two">
-                     <Link href="/contact" className="btn">Read More <InjectableSvg src="assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
+                     <Link href="/contact" className="btn">Read More<InjectableSvg
+                    src="assets/img/icon/right_arrow.svg"
+                    alt=""
+                    className="injectable"
+                  /></Link>
                   </div>
                </div>
             </div>
