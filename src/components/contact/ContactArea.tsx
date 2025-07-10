@@ -34,7 +34,7 @@ const ContactArea = () => {
                      <p className="info-one">IW3 Infralog LLC-FZ
 Meydan Free Zone, 
 Nad Al Sheba, P.O. Box 35195 
-Mumbai - 400097,  <br /> Dubai, UAE</p>
+  <br /> Dubai, UAE</p>
                      <p className="contact__description-text"><Link href="tel:+97147777222">+97147777222</Link></p>
                       <p className="contact__description-text"><Link href="tel:+971 56 2212979">+971 56 2212979</Link></p>
                      <p className="info-two">Monday – saturday: 8:00 am-6:00 pm<br />sunday closed</p>
