@@ -273,7 +273,7 @@ body .theme-green {
 }
 
 body .theme-red {
-  --tg-theme-secondary: #151515;
+  /* --tg-theme-secondary: #151515; */
 }
 
 body .theme-red {
