@@ -3,7 +3,7 @@ import Breadcumb from "@/components/common/Breadcumb"
 import HistoryArea from "./HistoryArea"
 import MarqueeArea from "@/components/homes/home-one/Marquee"
 import Testimonial from "./Testimonial"
-import Brand from "@/components/homes/home-one/Brand"
+// import Brand from "@/components/homes/home-one/Brand"
 
 import ScrollToTop from "@/components/common/ScrollToTop"
 import HeaderOne from "@/layouts/headers/HeaderOne"
@@ -19,7 +19,7 @@ const History = () => {
             <HistoryArea />
             <MarqueeArea style={true} />
             <Testimonial />
-            <Brand />
+            {/* <Brand /> */}
          </main>
          <FooterOne />
       </div>

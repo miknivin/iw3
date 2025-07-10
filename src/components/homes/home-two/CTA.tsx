@@ -1,6 +1,6 @@
 import Image from "next/image"
 import cta_img from "@/assets/img/images/cta_img.jpg"
-import InjectableSvg from "@/components/common/InjectableSvg"
+// import InjectableSvg from "@/components/common/InjectableSvg"
 import Link from "next/link"
 
 const CTA = () => {
@@ -17,11 +17,7 @@ const CTA = () => {
                      <p>Experience top-notch travel with our premier transport services, tailored for your comfort and convenience.</p>
                   </div>
                   <div className="cta__btn-two cta__btn-three">
-                     <Link href="/contact" className="btn">Read More <InjectableSvg
-                    src="assets/img/icon/right_arrow.svg"
-                    alt=""
-                    className="injectable"
-                  /></Link>
+                     <Link href="/contact" className="btn">Read More </Link>
                   </div>
                </div>
             </div>

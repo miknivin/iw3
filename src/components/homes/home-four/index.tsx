@@ -2,7 +2,7 @@
 import Hero from "./Hero"
 import Feature from "./Feature"
 import About from "./About"
-import Brand from "../home-one/Brand"
+// import Brand from "../home-one/Brand"
 import Service from "./Service"
 import VideoArea from "../home-one/VideoArea"
 import RequestArea from "../home-one/RequestArea"
@@ -24,7 +24,7 @@ const HomeFour = () => {
             <Hero />
             <Feature />
             <About />
-            <Brand />
+            {/* <Brand /> */}
             <Service />
             <VideoArea style={true} />
             <RequestArea style={true} />

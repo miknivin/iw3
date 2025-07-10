@@ -13,7 +13,7 @@ import WorkArea from "./WorkArea"
 import CTA from "./CTA"
 import Team from "./Team"
 import Testimonial from "../home-one/Testimonial"
-import Brand from "../home-one/Brand"
+// import Brand from "../home-one/Brand"
 import Blog from "./Blog"
 import ScrollToTop from "@/components/common/ScrollToTop"
 import FooterOne from "@/layouts/footers/FooterOne"
@@ -39,7 +39,7 @@ const HomeTwo = () => {
             <CTA />
             <Team />
             <Testimonial style={true} />
-            <Brand style={false} />
+            {/* <Brand style={false} /> */}
             <Blog />
          </main>
          <FooterOne />

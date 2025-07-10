@@ -1,4 +1,4 @@
-import InjectableSvg from "@/components/common/InjectableSvg"
+// import InjectableSvg from "@/components/common/InjectableSvg"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -18,11 +18,7 @@ const CTA = () => {
                      <p>Experience top-notch travel with our premier transport services, tailored for your comfort and convenience.</p>
                   </div>
                   <div className="cta__btn-two">
-                     <Link href="/contact" className="btn">Read More<InjectableSvg
-                    src="assets/img/icon/right_arrow.svg"
-                    alt=""
-                    className="injectable"
-                  /></Link>
+                     <Link href="/contact" className="btn">Read More</Link>
                   </div>
                </div>
             </div>

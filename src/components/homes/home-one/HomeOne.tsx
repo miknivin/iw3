@@ -1,7 +1,7 @@
 import FooterOne from "@/layouts/footers/FooterOne"
 import Hero from "./Hero"
 import About from "./About"
-import Brand from "./Brand"
+// import Brand from "./Brand"
 import Service from "./Service"
 import Choose from "./Choose"
 import Achieved from "./Achieved"
@@ -25,7 +25,7 @@ const HomeOne = () => {
          <main className="fix">
             <Hero />
             <About />
-            <Brand style={false} />
+            {/* <Brand style={false} /> */}
             <Service />
             <Choose />
             <Achieved />
