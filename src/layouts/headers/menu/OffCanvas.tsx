@@ -27,7 +27,9 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
             <h4>Office Address</h4>
             <p>
               {" "}
-              IW3 Infralog LLC-FZ Meydan Free Zone, Nad Al Sheba, P.O. Box 35195
+              IW3 Infralog LLC-FZ
+              <br /> Meydan Free Zone, Nad Al Sheba,
+              <br /> P.O. Box 35195
               <br /> Dubai, UAE
             </p>
           </div>

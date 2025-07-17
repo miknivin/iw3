@@ -33,7 +33,7 @@ const HomeThree = () => {
             <Project />
             <MarqueeArea style={false} />
             <Team style={true} />
-            <Testimonial style={true} />
+            {/* <Testimonial style={true} /> */}
             <Faq />
             <Blog />
          </main>

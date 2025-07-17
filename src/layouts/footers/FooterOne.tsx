@@ -1,5 +1,4 @@
 "use client";
-// import InjectableSvg from "@/components/common/InjectableSvg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,7 +10,7 @@ import logo from "@/assets/img/logo/logo footer.png";
 const FooterOne = () => {
   return (
     <footer className="footer__area fix">
-      <div className="container">
+      {/* <div className="container">
         <div className="cta__wrap fix">
           <div className="row align-items-center">
             <div className="col-lg-7">
@@ -22,16 +21,6 @@ const FooterOne = () => {
               </div>
             </div>
             <div className="col-lg-5">
-              {/* <div className="cta__btn text-end">
-                <Link href="/services" className="btn btn-two">
-                  Request a Quote{" "}
-                  <InjectableSvg
-                    src="assets/img/icon/right_arrow.svg"
-                    alt=""
-                    className="injectable"
-                  />
-                </Link>
-              </div> */}
             </div>
           </div>
           <div className="cta__shape">
@@ -42,7 +31,8 @@ const FooterOne = () => {
               data-aos-delay="400"
             />
           </div>
-        </div>
+        </div> */}
+      <div className="container">
         <div className="footer__top">
           <div className="row">
             <div className="col-xl-4 col-lg-5 col-md-6">
@@ -58,16 +48,6 @@ const FooterOne = () => {
                     Consulting Services in the most secure and expedited manner
                   </p>
                 </div>
-                {/* <form
-                  onSubmit={(e) => e.preventDefault()}
-                  className="footer__newsletter"
-                >
-                  <div className="form-grp">
-                    <input type="email" placeholder="enter your e-mail" />
-                    <button type="submit">Subscribe</button>
-                  </div>
-                  <span>We don’t send you any spam</span>
-                </form> */}
               </div>
             </div>
             <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6">
@@ -76,7 +56,7 @@ const FooterOne = () => {
                 <div className="footer__link">
                   <ul className="list-wrap">
                     <li>
-                      <Link href="/services-details/svc-infra-001">Infrastructure </Link>
+                      <Link href="/services-details/svc-infra-001">Infrastructure</Link>
                     </li>
                     <li>
                       <Link href="/services-details/svc-infra-002">Procurement</Link>
@@ -95,7 +75,7 @@ const FooterOne = () => {
               <div className="footer__widget">
                 <h4 className="footer__widget-title">Useful Links</h4>
                 <div className="footer__link">
-                    <ul className="list-wrap">
+                  <ul className="list-wrap">
                     <li>
                       <Link href="/">Home</Link>
                     </li>
@@ -108,7 +88,6 @@ const FooterOne = () => {
                     <li>
                       <Link href="/contact">Contact</Link>
                     </li>
-                  
                   </ul>
                 </div>
               </div>
@@ -122,17 +101,19 @@ const FooterOne = () => {
                       <i className="flaticon-location-1"></i>
                       <p>
                         IW3 Infralog LLC-FZ
-Meydan Free Zone, 
-Nad Al Sheba, P.O. Box 35195
                         <br />
-                      Dubai, UAE
+                        Meydan Free Zone, 
+                        Nad Al Sheba,
+                        <br />
+                        P.O. Box 35195
+                        <br />
+                        Dubai, UAE
                       </p>
                     </li>
                     <li>
                       <i className="flaticon-telephone"></i>
                       <Link href="tel:+97147777222">+97147777222</Link>
                     </li>
-
                     <li className="flex items-start gap-3">
                       <i className="fas fa-envelope mt-2"></i>
                       <Link href="mailto:info@iw3.in">info@iw3.in</Link>
@@ -140,8 +121,7 @@ Nad Al Sheba, P.O. Box 35195
                     <li>
                       <i className="flaticon-time"></i>
                       <p>
-                        Mon – Sat: 8 am – 6 pm, <br /> Sunday:{" "}
-                        <span>CLOSED</span>
+                        Mon – Fri: 8 am – 5 pm
                       </p>
                     </li>
                   </ul>
@@ -155,40 +135,11 @@ Nad Al Sheba, P.O. Box 35195
             <div className="col-md-7">
               <div className="copyright-text">
                 <p>
-                  Copyright <Link href="/">©iw3</Link> | All Right Reserved
+                  Copyright <Link href="/">©IW3</Link> | All Right Reserved
                 </p>
               </div>
             </div>
             <div className="col-md-5">
-              {/* <div className="footer__social">
-                <ul className="list-wrap">
-                  <li>
-                    <Link href="https://www.facebook.com/" target="_blank">
-                      <i className="fab fa-facebook-f"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://twitter.com" target="_blank">
-                      <i className="fab fa-twitter"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://www.whatsapp.com/" target="_blank">
-                      <i className="fab fa-whatsapp"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://www.instagram.com/" target="_blank">
-                      <i className="fab fa-instagram"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://www.youtube.com/" target="_blank">
-                      <i className="fab fa-youtube"></i>
-                    </Link>
-                  </li>
-                </ul>
-              </div> */}
             </div>
           </div>
         </div>

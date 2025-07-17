@@ -28,7 +28,7 @@ const HomeFour = () => {
             <Service />
             <VideoArea style={true} />
             <RequestArea style={true} />
-            <Testimonial />
+            {/* <Testimonial /> */}
             <Counter />
             <Project />
             <WorkArea />

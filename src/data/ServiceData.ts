@@ -22,10 +22,10 @@ const serviceData = [
     benefitsDescription:
       "Our platform empowers businesses to secure funding efficiently while maintaining control over terms, ensuring flexibility and scalability.",
     benefitsList: [
-      "Quality Control System",
-      "100% Satisfaction Guarantee",
-      "Professional and Qualified",
-      "Safe, Reliable, and Express",
+      "Reliable ",
+      "Experienced",
+      "Professional ",
+      "Speed ",
     ],
     faqs: [
       {

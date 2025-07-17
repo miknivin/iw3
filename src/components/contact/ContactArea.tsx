@@ -32,12 +32,15 @@ const ContactArea = () => {
                   <div className="contact__info-item">
                      <h4 className="title">Office in Dubai</h4>
                      <p className="info-one">IW3 Infralog LLC-FZ
+                        <br />
 Meydan Free Zone, 
-Nad Al Sheba, P.O. Box 35195 
+Nad Al Sheba, 
+<br/>
+P.O. Box 35195 
   <br /> Dubai, UAE</p>
                      <p className="contact__description-text"><Link href="tel:+97147777222">+97147777222</Link></p>
                       <p className="contact__description-text"><Link href="tel:+971 56 2212979">+971 56 2212979</Link></p>
-                     <p className="info-two">Monday – saturday: 8:00 am-6:00 pm<br />sunday closed</p>
+                     <p className="info-two">Monday – Friday: 8:00 am-5:00 pm<br /></p>
                      <Link href="mailto:info@iw3.in">info@iw3.in</Link>
                   </div>
                </div>

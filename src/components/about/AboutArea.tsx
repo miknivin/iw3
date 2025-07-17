@@ -24,10 +24,10 @@ PARTNER</h2>
                      <div className="about__content-inner">
                         <div className="about__list-box about__list-box-two">
                            <ul className="list-wrap">
-                              <li><i className="flaticon-check"></i>Quality Control System</li>
-                              <li><i className="flaticon-check"></i>100% Satisfaction Guarantee</li>
-                              <li><i className="flaticon-check"></i>Professional and Qualified</li>
-                              <li><i className="flaticon-check"></i>Safe, Reliable And Express</li>
+                              <li><i className="flaticon-check"></i> Reliable </li>
+                              <li><i className="flaticon-check"></i>Experienced</li>
+                              <li><i className="flaticon-check"></i>Professional </li>
+                              <li><i className="flaticon-check"></i>Speed </li>
                            </ul>
                         </div>
                         <div className="about__clients-box">
@@ -37,7 +37,7 @@ PARTNER</h2>
                                  <i className="flaticon-planet-earth"></i>
                               </div>
                               <div className="counter__content">
-                                 <h2 className="count"><span className="counter-number">15.9</span>M</h2>
+                                 <h2 className="count"><span className="counter-number">100</span></h2>
                                  <p>Clients Worldwide</p>
                               </div>
                            </div>

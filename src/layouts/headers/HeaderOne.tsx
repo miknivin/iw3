@@ -12,7 +12,6 @@ import MobileSidebar from "./menu/MobileSidebar"
 import logo from "@/assets/img/logo/logo01.png"
 
 const HeaderOne = () => {
-
    const { sticky } = UseSticky();
    const [offCanvas, setOffCanvas] = useState<boolean>(false);
    const [isSearch, setIsSearch] = useState<boolean>(false);
@@ -49,23 +48,27 @@ const HeaderOne = () => {
                                     <i className="flaticon-search"></i>
                                  </a> */}
                               </li>
-                              <li className="header-contact">
-                                 <div className="icon">
-                                    <i className="flaticon-telephone"></i>
-                                 </div>
-                                 <div className="content">
-                                    <span>Emergency Call:</span>
-                                    <Link href="tel:+97147777222">+97147777222</Link>
-                                 </div>
-                              </li>
-                              {/* <li className="header-btn"><Link href="/contact" className="btn"><i className="flaticon-uptrend"></i>Track Order</Link></li> */}
                            </ul>
                         </div>
-                        <div className="mobile-nav-toggler" onClick={() => setIsActive(true)}>
-                           <i className="tg-flaticon-menu-1"></i>
+                        {/* Changed from mobile-nav-toggler to always visible */}
+                        <div 
+  className="desktop-nav-toggler"
+  onClick={() => setIsActive(true)}
+  style={{
+    padding: '25px 20px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+   
+    color: 'var(--tg-body-color)'
+  }}
+>
+                           <i 
+  className="tg-flaticon-menu-1" 
+  style={{ fontSize: '24px' }} // Adjust the size as needed
+></i>
                         </div>
                      </div>
-
                   </div>
                </div>
             </div>

@@ -33,9 +33,9 @@ const HomeOne = () => {
             <Project />
             {/* <VideoArea style={false} /> */}
             {/* <RequestArea style={false} /> */}
-             <Testimonial style={false} /> 
-          
-            <WorkArea />
+             {/* <Testimonial style={false} />  */}
+{/*           
+            <WorkArea /> */}
             {/* <Blog /> */}
             <ContactMap />
          </main>

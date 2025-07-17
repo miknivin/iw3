@@ -19,7 +19,7 @@ const Choose = () => {
                   <div className="choose__content">
                      <div className="section__title white-title mb-25">
                         <span className="sub-title">Why Choose Us</span>
-                        <h2 className="title">Re-imagine & <br /> Logistics Solutions!</h2>
+                        <h2 className="title">Seamless Solutions Worldwide <br /> </h2>
                      </div>
                      <div className="choose__content-bottom">
                         <div className="left-side">
@@ -33,8 +33,12 @@ We are also bullish on youth oriented infrastructure projects in areas such as s
                                  <i className="flaticon-package"></i>
                               </div>
                               <div className="counter__content">
-                                 <h2 className="count"><span className="counter-number"><Count number={9.5} /></span>M</h2>
-                                 <p>Delivered Goods</p>
+                                <h2 className="count">
+  <span className="counter-number">
+    <Count number={500} />
+  </span>M+
+</h2>
+<p>Trade value</p>
                               </div>
                            </div>
                            <div className="counter__item">
@@ -42,7 +46,7 @@ We are also bullish on youth oriented infrastructure projects in areas such as s
                                  <i className="flaticon-planet-earth"></i>
                               </div>
                               <div className="counter__content">
-                                 <h2 className="count"><span className="counter-number"><Count number={15.9} /></span>M</h2>
+                                 <h2 className="count"><span className="counter-number"><Count number={100} /></span>+</h2>
                                  <p>Clients Worldwide</p>
                               </div>
                            </div>

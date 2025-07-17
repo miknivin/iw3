@@ -60,7 +60,7 @@ const Services = () => {
             <div className="row align-items-center">
                <div className="col-lg-7">
                   <div className="section__title white-title mb-40">
-                     <span className="sub-title">OUR BEST SERVICES</span>
+                     <span className="sub-title">OUR SERVICES</span>
                      <h2 className="title">Best Transport services <br /> for our client’s</h2>
                   </div>
                </div>

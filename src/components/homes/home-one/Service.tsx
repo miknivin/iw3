@@ -14,8 +14,8 @@ const Service = () => {
             <div className="row align-items-center">
                <div className="col-md-8">
                   <div className="section__title mb-40">
-                     <span className="sub-title">OUR BEST SERVICES</span>
-                     <h2 className="title">Covering All Logistics <br /> Solutions For you</h2>
+                     <span className="sub-title">OUR  SERVICES</span>
+                     <h2 className="title">We Have You Covered <br /> </h2>
                   </div>
                </div>
                <div className="col-md-4">

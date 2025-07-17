@@ -2043,6 +2043,7 @@ body .theme-red .scroll__top:hover {
   background-size: cover;
   background-position: center;
   background-color: var(--tg-theme-primary);
+  
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .counter__wrap {
@@ -2772,6 +2773,7 @@ body .theme-red .scroll__top:hover {
   display: -webkit-flex;
   display: flex;
   flex-grow: 1;
+
 }
 .tgmenu__navbar-wrap ul {
   display: -webkit-box;

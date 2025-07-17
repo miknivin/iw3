@@ -38,7 +38,7 @@ const HomeTwo = () => {
             <WorkArea />
             <CTA />
             <Team />
-            <Testimonial style={true} />
+            {/* <Testimonial style={true} /> */}
             {/* <Brand style={false} /> */}
             <Blog />
          </main>

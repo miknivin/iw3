@@ -26,7 +26,7 @@ const About = () => {
             <Counter />
             {/* <Pricing /> */}
             {/* <Team style={false} /> */}
-            <Testimonial style={true} />
+            {/* <Testimonial style={true} /> */}
             {/* <Brand /> */}
             <FooterOne />
          </main>
