@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import shape_1 from "@/assets/img/images/cta_shape.png";
+// import shape_1 from "@/assets/img/images/cta_shape.png";
 import shape_2 from "@/assets/img/images/footer_shape01.png";
 import shape_3 from "@/assets/img/images/footer_shape02.png";
 import logo from "@/assets/img/logo/logo footer.png";

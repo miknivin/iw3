@@ -1,7 +1,7 @@
 
 import Breadcumb from "../common/Breadcumb"
 // import Brand from "../homes/home-one/Brand"
-import Testimonial from "../homes/home-one/Testimonial"
+// import Testimonial from "../homes/home-one/Testimonial"
 // import Team from "../homes/home-three/Team"
 import AboutArea from "./AboutArea"
 import Counter from "./Counter"

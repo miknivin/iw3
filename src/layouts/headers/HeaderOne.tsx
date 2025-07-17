@@ -1,83 +1,106 @@
-"use client"
-import Link from "next/link"
-import NavMenu from "./menu/NavMenu"
-import Image from "next/image"
-import HeaderTopOne from "./HeaderTopOne"
-import UseSticky from "@/hooks/UseSticky"
-import { useState } from "react"
-import OffCanvas from "./menu/OffCanvas"
-import HeaderSearch from "./menu/HeaderSearch"
-import MobileSidebar from "./menu/MobileSidebar"
+"use client";
+import Link from "next/link";
+import NavMenu from "./menu/NavMenu";
+import Image from "next/image";
+import HeaderTopOne from "./HeaderTopOne";
+import UseSticky from "@/hooks/UseSticky";
+import { useState } from "react";
+import OffCanvas from "./menu/OffCanvas";
+import HeaderSearch from "./menu/HeaderSearch";
+import MobileSidebar from "./menu/MobileSidebar";
 
-import logo from "@/assets/img/logo/logo01.png"
+import logo from "@/assets/img/logo/logo01.png";
 
 const HeaderOne = () => {
-   const { sticky } = UseSticky();
-   const [offCanvas, setOffCanvas] = useState<boolean>(false);
-   const [isSearch, setIsSearch] = useState<boolean>(false);
-   const [isActive, setIsActive] = useState<boolean>(false);
+  const { sticky } = UseSticky();
+  const [offCanvas, setOffCanvas] = useState<boolean>(false);
+  const [isSearch, setIsSearch] = useState<boolean>(false);
+  const [isActive, setIsActive] = useState<boolean>(false);
 
-   return (
-      <header>
-         <div id="header-fixed-height"></div>
-         <HeaderTopOne />
-         <div id="sticky-header" className={`tg-header__area ${sticky ? "tg-sticky-menu sticky-menu sticky-menu__show" : ""}`}>
-            <div className="container-fluid p-0">
-               <div className="row gx-0">
-                  <div className="col-12">
-                     <div className="tgmenu__wrap">
-                        <div className="tgmenu__nav-left-side">
-                           <div className="offcanvas-toggle">
-                              <Link href="#" onClick={() => setOffCanvas(true)} className="menu-tigger">
-                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-                                    <path d="M1.66669 15H28.3334M1.66669 6.66666H28.3334M1.66669 23.3333H28.3334" stroke="currentcolor" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round" />
-                                 </svg>
-                              </Link>
-                           </div>
-                           <div className="logo">
-                              <Link href="/"><Image src={logo} alt="Logo" width={140} height={140} /></Link>
-                           </div>
-                        </div>
-                        <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
-                           <NavMenu />
-                        </div>
-                        <div className="tgmenu__action d-none d-md-flex">
-                           <ul className="list-wrap">
-                              <li className="header-search">
-                                 {/* <a onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }} className="search-open-btn">
+  return (
+    <header>
+      <div id="header-fixed-height"></div>
+      <HeaderTopOne />
+      <div
+        id="sticky-header"
+        className={`tg-header__area ${
+          sticky ? "tg-sticky-menu sticky-menu sticky-menu__show" : ""
+        }`}
+      >
+        <div className="container-fluid p-0">
+          <div className="row gx-0">
+            <div className="col-12">
+              <div className="tgmenu__wrap">
+                <div className="tgmenu__nav-left-side">
+                  <div className="offcanvas-toggle">
+                    <Link
+                      href="#"
+                      onClick={() => setOffCanvas(true)}
+                      className="menu-tigger"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        height="30"
+                        viewBox="0 0 30 30"
+                        fill="none"
+                      >
+                        <path
+                          d="M1.66669 15H28.3334M1.66669 6.66666H28.3334M1.66669 23.3333H28.3334"
+                          stroke="currentcolor"
+                          strokeWidth="1.83333"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </Link>
+                  </div>
+                  <div className="logo">
+                    <Link href="/">
+                      <Image src={logo} alt="Logo" width={140} height={140} />
+                    </Link>
+                  </div>
+                </div>
+                <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
+                  <NavMenu />
+                </div>
+                <div className="tgmenu__action d-none d-md-flex">
+                  <ul className="list-wrap">
+                    <li className="header-search">
+                      {/* <a onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }} className="search-open-btn">
                                     <i className="flaticon-search"></i>
                                  </a> */}
-                              </li>
-                           </ul>
-                        </div>
-                        {/* Changed from mobile-nav-toggler to always visible */}
-                        <div 
-  className="desktop-nav-toggler"
-  onClick={() => setIsActive(true)}
-  style={{
-    padding: '25px 20px',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-   
-    color: 'var(--tg-body-color)'
-  }}
->
-                           <i 
-  className="tg-flaticon-menu-1" 
-  style={{ fontSize: '24px' }} // Adjust the size as needed
-></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <OffCanvas offCanvas={offCanvas} setOffCanvas={setOffCanvas} />
-         <HeaderSearch isSearch={isSearch} setIsSearch={setIsSearch} />
-         <MobileSidebar isActive={isActive} setIsActive={setIsActive} />
-      </header>
-   )
-}
+                    </li>
+                  </ul>
+                </div>
+                {/* Changed from mobile-nav-toggler to always visible */}
+                <div
+                  className="desktop-nav-toggler"
+                  onClick={() => setIsActive(true)}
+                  style={{
+                    padding: "25px 20px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
 
-export default HeaderOne
+                    color: "var(--tg-body-color)",
+                  }}
+                >
+                  <i
+                    className="tg-flaticon-menu-1"
+                    style={{ fontSize: "24px" }} // Adjust the size as needed
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <OffCanvas offCanvas={offCanvas} setOffCanvas={setOffCanvas} />
+      <HeaderSearch isSearch={isSearch} setIsSearch={setIsSearch} />
+      <MobileSidebar isActive={isActive} setIsActive={setIsActive} />
+    </header>
+  );
+};
+
+export default HeaderOne;

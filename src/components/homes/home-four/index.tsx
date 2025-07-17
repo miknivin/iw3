@@ -12,7 +12,7 @@ import WorkArea from "../home-two/WorkArea"
 import CTA from "../home-two/CTA"
 import Blog from "./Blog"
 
-import Testimonial from "./Testimonial"
+// import Testimonial from "./Testimonial"
 import HeaderOne from "@/layouts/headers/HeaderOne"
 import FooterOne from "@/layouts/footers/FooterOne"
 

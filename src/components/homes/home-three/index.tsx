@@ -9,7 +9,7 @@ import VideoArea from "./VideoArea"
 import Project from "./Project"
 import MarqueeArea from "../home-one/Marquee"
 import Team from "./Team"
-import Testimonial from "../home-one/Testimonial"
+// import Testimonial from "../home-one/Testimonial"
 import Faq from "./Faq"
 import Blog from "../home-two/Blog"
 
