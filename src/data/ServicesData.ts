@@ -1,9 +1,9 @@
 import { StaticImageData } from "next/image";
 
-import service_1 from "@/assets/img/services/services_img01.jpg"
-import service_2 from "@/assets/img/services/services_img02.jpg"
-import service_3 from "@/assets/img/services/services_img03.jpg"
-import service_4 from "@/assets/img/services/services_img04.jpg"
+import service_1 from "@/assets/img/services/services_img11.jpeg"
+import service_2 from "@/assets/img/services/services_img13.jpg"
+import service_3 from "@/assets/img/services/services_img12.jpg"
+import service_4 from "@/assets/img/services/services_img14.jpg"
 import service_5 from "@/assets/img/services/services_img07.jpg"
 import service_6 from "@/assets/img/services/services_img08.jpg"
 import service_7 from "@/assets/img/services/services_img09.jpg"
@@ -23,7 +23,7 @@ const service_data: DataType[] = [
       id: "svc-infra-001",
       page: "home_1",
       img: service_1,
-      icon: "flaticon-train",
+      icon: "flaticon-crane",
       title: "Infrastructure",
       desc: "iW3 began its journey with a goal to democratize industrial warehousing and logistics infrastructure",
    },
@@ -31,7 +31,7 @@ const service_data: DataType[] = [
       id: "svc-infra-002",
       page: "home_1",
       img: service_2,
-      icon: "flaticon-ship",
+      icon: "flaticon-warehouse",
       title: "Procurement",
       desc: "iW3 has expertise and experience in handling time-bound Project Logistics",
    },
@@ -47,7 +47,7 @@ const service_data: DataType[] = [
       id: "svc-infra-003",
       page: "home_1",
       img: service_4,
-      icon: "flaticon-train",
+      icon: "fa-solid fa-briefcase",
       title: "Consulting",
       desc: "iW3 offers consulting services in various areas such as infrastructure projects, planning, procurement and logistics",
    },

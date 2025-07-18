@@ -1,8 +1,8 @@
 // File: data/servicesData.js
-import service_details1 from "@/assets/img/services/services_img01.jpg";
-import service_details2 from "@/assets/img/services/services_img02.jpg"
-import service_details3 from "@/assets/img/services/services_img03.jpg";
-import service_details4 from "@/assets/img/services/services_img04.jpg";
+import service_details1 from "@/assets/img/services/services_img11.jpeg";
+import service_details2 from "@/assets/img/services/services_img13.jpg"
+import service_details3 from "@/assets/img/services/services_img12.jpg";
+import service_details4 from "@/assets/img/services/services_img14.jpg";
 const serviceData = [
   {
     id: "svc-infra-001",
@@ -44,9 +44,9 @@ const serviceData = [
           "We support multiple payment methods, including bank transfers, credit cards, and digital wallets, ensuring seamless transactions for investors worldwide.",
       },
     ],
-    videoId: "Ml4XCF-JS0k",
+    // videoId: "Ml4XCF-JS0k",
     mainImage: service_details1,
-    secondaryImage: service_details2,
+    secondaryImage: service_details1,
   },
   {
     id: "svc-infra-002",
@@ -90,7 +90,7 @@ const serviceData = [
       answer: "We optimize small orders through consolidated purchasing with other projects in your region, maintaining cost efficiency even for partial truckloads."
     }
   ],
-  videoId: "EmergencyProcurementDemo",
+  // videoId: "EmergencyProcurementDemo",
   mainImage: service_details2, // Replace with actual procurement image
   secondaryImage: service_details2 // Replace with actual procurement image
 },
@@ -134,9 +134,9 @@ const serviceData = [
       answer: "Yes, we offer complete site solutions including temporary storage yards, on-site cranes, and just-in-sequence delivery coordination for construction projects."
     }
   ],
-  videoId: "ProjectLogisticsCaseStudy",
+  // videoId: "ProjectLogisticsCaseStudy",
   mainImage: service_details3, // Replace with actual project logistics image
-  secondaryImage: service_details2, // Replace with actual project logistics image
+  secondaryImage: service_details3, // Replace with actual project logistics image
   sections: [
     {
       title: "Cargo Aircraft Solutions",
@@ -179,9 +179,9 @@ const serviceData = [
       answer: "We combine top-tier strategy consulting with boots-on-the-ground operators who have actually run logistics businesses, ensuring practical, executable advice."
     }
   ],
-  videoId: "ConsultingOverviewVideo",
+  // videoId: "ConsultingOverviewVideo",
   mainImage: service_details4, // Replace with actual consulting image
-  secondaryImage: service_details3, // Replace with actual consulting image
+  secondaryImage: service_details4, // Replace with actual consulting image
   sections: [
     {
       title: "Mergers & Acquisitions Advisory",

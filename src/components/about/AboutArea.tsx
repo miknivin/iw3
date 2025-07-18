@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import about_1 from "@/assets/img/images/inner_about_img01.jpg"
+import about_1 from "@/assets/img/images/inner_about_img03.jpg"
 import about_2 from "@/assets/img/images/inner_about_img02.jpg"
 
 const AboutArea = () => {

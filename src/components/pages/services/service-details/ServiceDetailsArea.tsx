@@ -87,13 +87,13 @@ const ServiceDetailsArea = () => {
                       <div className="col-44">
                         <div className="services__details-inner-img">
                           <Image src={service.secondaryImage} alt={service.mainTitle} />
-                          <a
+                          {/* <a
                             onClick={() => setIsVideoOpen(true)}
                             style={{ cursor: "pointer" }}
                             className="play-btn popup-video"
                           >
                             <i className="fas fa-play"></i>
-                          </a>
+                          </a> */}
                         </div>
                       </div>
                       <div className="col-56">
