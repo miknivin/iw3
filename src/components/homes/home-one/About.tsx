@@ -27,27 +27,31 @@ const About = () => {
                 </div>
                 <p>Our comprehensive logistics services ensure seamless transportation and warehousing solutions tailored to your business requirements, delivering reliability and cost-effectiveness across all stages of your supply chain.</p>
                 <div className="about__content-bottom">
-                  <div className="about__list-box-wrap">
-                    <div className="about__list-box">
-                      <ul className="list-wrap">
-                        <li><i className="flaticon-check"></i>Reliable </li>
-                        <li><i className="flaticon-check"></i>Experienced</li>
-                        <li><i className="flaticon-check"></i>Professional</li>
-                        <li><i className="flaticon-check"></i>Speed </li>
-                      </ul>
+                  <div className="row align-items-center">
+                    <div className="col-md-6">
+                      <div className="about__list-box">
+                        <ul className="list-wrap">
+                          <li><i className="flaticon-check"></i>Reliable </li>
+                          <li><i className="flaticon-check"></i>Experienced</li>
+                          <li><i className="flaticon-check"></i>Professional</li>
+                          <li><i className="flaticon-check"></i>Speed </li>
+                        </ul>
+                        <Link href="/services" className="btn">Get in Touch <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
+                      </div>
                     </div>
-                    <Link href="/services" className="btn">Get in Touch <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
-                  </div>
-                  <div className="logistics__features">
-                    <div className="logistics__feature-item">
-                      <i className="flaticon-shipping"></i>
-                      <h4>100+ Clients Worldwide</h4>
-                      <p>Trusted by businesses across multiple industries</p>
-                    </div>
-                    <div className="logistics__feature-item">
-                      <i className="flaticon-warehouse"></i>
-                      <h4>Warehousing</h4>
-                      <p>2M+ sq ft of secure storage facilities worldwide</p>
+                    <div className="col-md-6">
+                      <div className="logistics__features">
+                        <div className="logistics__feature-item">
+                          <i className="flaticon-shipping"></i>
+                          <h4>100+ Clients Worldwide</h4>
+                          <p>Trusted by businesses across multiple industries</p>
+                        </div>
+                        <div className="logistics__feature-item">
+                          <i className="flaticon-warehouse"></i>
+                          <h4>Warehousing</h4>
+                          <p>2M+ sq ft of secure storage facilities worldwide</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -62,4 +66,4 @@ const About = () => {
    )
 }
 
-export default About
+export default About 
