@@ -20,7 +20,7 @@ const AboutArea = () => {
                         <h2 className="title">TRUSTED
 PARTNER</h2>
                      </div>
-                     <p className="info-one">iW3 began its journey with a goal to democratize industrial warehousing and logistics infrastructure. Having worked for several decades in the logistics, aviation and infrastructure domains, our team is of the firm belief that robust logistics infrastructure is a dire necessity for developing countries to scale up their economic outputs</p>
+                     <p >iW3 began its journey with a goal to democratize industrial warehousing and logistics infrastructure. Having worked for several decades in the logistics, aviation and infrastructure domains, our team is of the firm belief that robust logistics infrastructure is a dire necessity for developing countries to scale up their economic outputs</p>
                      <div className="about__content-inner">
                         <div className="about__list-box about__list-box-two">
                            <ul className="list-wrap">
