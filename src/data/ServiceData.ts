@@ -13,7 +13,7 @@ const serviceData = [
     subDescription:
       "The time is ripe for investing in infrastructure solutions in developing countries with high growth potential due to their youthful demographics. India alone requires over $1.4 trillion in infrastructure investment over the next 5 years to achieve its $5 trillion economy target. This necessitates affordable, long-term financing to build quality warehouses, airports, seaports, drone launch pads, highways, and more, all aimed at moving goods from manufacturer to consumer at the lowest cost.",
     progressMetrics: [
-      { title: "Successful Delivery", value: 82 },
+      { title: "Successful Delivery", value: 95 },
       { title: "Happy Customers", value: 90 },
     ],
     additionalDescription:
@@ -55,10 +55,10 @@ const serviceData = [
   mainDescription: "iW3 can assist with specific product procurement requirements of its customers. This especially comes in handy when we are engaged in executing a project and the customer wants to buy additional material at short notice. We provide procurement and delivery solutions for projects by sourcing, purchasing and delivering quality bulk materials and equipment as per your requirements and within your budget.",
   subTitle: "Rapid Sourcing for Unplanned Project Needs",
   subDescription: "Our emergency procurement network covers 12 commodity categories across 35 countries, specializing in last-minute project requirements. When design changes or unexpected needs arise during execution, we guarantee material availability within 72 hours for 85% of standard construction items, with full logistics integration to your project site.",
-  progressMetrics: [
-    { title: "Urgent Order Fulfillment", value: 95 },
-    { title: "Budget Compliance", value: 100 }
-  ],
+progressMetrics: [
+      { title: "Successful Delivery", value: 95 },
+      { title: "Happy Customers", value: 90 },
+    ],
   additionalDescription: "We maintain strategic buffer stocks of high-demand project materials at regional hubs, combined with real-time supplier capacity monitoring. This enables same-day purchase order processing for 60% of emergency requests, with digital tracking from supplier to site.",
   benefitsTitle: "Your Project's Safety Net for Material Needs",
   benefitsDescription: "Contact us with your requirements and our team will procure it for you in the shortest time Some of our focus areas include:",
@@ -101,10 +101,10 @@ const serviceData = [
   mainDescription: "iW3 has expertise and experience in handling time-bound Project Logistics. Whenever you need to transport something unique, project logistics come into play. Categories such as Heavy Machinery, Equipment, Out Of Gauge (OOG) items, Defense Goods, Relief Material, Pharmaceuticals, Live Animals or any Emergency goods would come under the purview of Project Logistics. There is a lot of planning and administration involved in project logistics with little or no room for error. We work closely with our customers to ensure that the project is delivered on time and on budget. Our team of experts thoroughly organize every aspect of transportation which ensure successful execution of the project – be it by Air, Ocean, Road – or a mix of all three!",
   subTitle: "Multimodal Transport for Complex Cargo",
   subDescription: "With specialized handling facilities in 12 global hubs, we've successfully moved 850+ project cargo shipments in the last year alone. Our engineered logistics solutions incorporate route surveys, load testing, and contingency planning for high-value shipments. The average project under our management saves 18-22% in transport costs through optimal mode selection and cargo consolidation.",
-  progressMetrics: [
-    { title: "On-Time Deliveries", value: 97 },
-    { title: "Cost Savings Achieved", value: 83 }
-  ],
+progressMetrics: [
+      { title: "Successful Delivery", value: 95 },
+      { title: "Happy Customers", value: 90 },
+    ],
   additionalDescription: "Our proprietary Project Control Tower provides real-time visibility of all project shipments, with predictive analytics for risk mitigation. We're currently implementing AI-powered stowage planning to maximize equipment utilization across all transport modes, projected to yield additional 15% efficiency gains by 2025.",
   benefitsTitle: "Your Project in Expert Hands",
   benefitsDescription: "We handle the complexities so you can focus on project execution.",
@@ -150,10 +150,10 @@ const serviceData = [
   mainDescription: "iW3 offers consulting services in various areas such as infrastructure projects, planning, procurement and logistics. Our panel of experts also provide advice on growth strategy, sales, people, operations and technology to match defined objectives and parameters of our customers.",
   subTitle: "Strategic Guidance for Logistics & Infrastructure",
   subDescription: "With 150+ successful consulting engagements across 25 countries, we bring market-specific insights and operational expertise to help businesses scale efficiently. Our consultants average 15 years of industry experience, delivering actionable strategies that have helped clients achieve 30-40% faster growth compared to industry benchmarks.",
-  progressMetrics: [
-    { title: "Client Growth Achieved", value: 87 },
-    { title: "Implementation Success", value: 93 }
-  ],
+ progressMetrics: [
+      { title: "Successful Delivery", value: 95 },
+      { title: "Happy Customers", value: 90 },
+    ],
   additionalDescription: "We combine traditional consulting with hands-on implementation support, ensuring strategies translate into measurable results. Our proprietary assessment tools evaluate over 200 operational parameters to identify growth opportunities and efficiency gaps specific to your business context.",
   benefitsTitle: "Transformative Business Expertise",
   benefitsDescription: "We provide end-to-end consulting solutions tailored to your strategic objectives.",

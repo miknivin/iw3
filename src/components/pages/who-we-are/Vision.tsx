@@ -29,7 +29,7 @@ const Vision = () => {
                            <div className="progress__item progress__item-three">
                               <div className="progress__item-top">
                                  <h3 className="progress__title">Successful Delivery</h3>
-                                 <div className="progress-value"><span className="counter-number">82</span>%</div>
+                                 <div className="progress-value"><span className="counter-number">95</span>%</div>
                               </div>
                               <div className="progress">
                                  <div className="progress-bar"
