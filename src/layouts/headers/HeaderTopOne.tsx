@@ -7,8 +7,8 @@ const HeaderTopOne = () => {
        <div className="row align-items-center">
            <div className="col-xl-7">
                <ul className="tg-header__top-info left-side list-wrap">
-                   <li><i className="flaticon-location-1"></i>IW3 Infralog LLC-FZ
-Dubai UAE</li>
+                   <li><i className="flaticon-location-1"></i>IW3 Infralog LLC-FZ,
+Dubai, UAE</li>
                    <li><i className="flaticon-envelope"></i><Link href="mailto:info@iw3.in">info@iw3.in</Link></li>
                    <li><i className="flaticon-time"></i>Mon – Fri:8.00 am – 5.00pm</li>
                </ul>

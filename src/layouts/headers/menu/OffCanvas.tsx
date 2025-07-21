@@ -28,7 +28,8 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
             <p>
               {" "}
               IW3 Infralog LLC-FZ
-              <br /> Meydan Free Zone, Nad Al Sheba,
+              <br /> Meydan Free Zone,
+              <br /> Nad Al Sheba,
               <br /> P.O. Box 35195
               <br /> Dubai, UAE
             </p>
