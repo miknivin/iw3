@@ -2,7 +2,7 @@ import InjectableSvg from "@/components/common/InjectableSvg"
 import Image from "next/image"
 import Link from "next/link"
 
-import banner_img from "@/assets/img/banner/iw3.4.png"
+import banner_img from "@/assets/img/banner/iw3.6.png"
 import shape_1 from "@/assets/img/banner/banner_shape.png"
 import shape_2 from "@/assets/img/banner/banner_iCONT green.png"
 
