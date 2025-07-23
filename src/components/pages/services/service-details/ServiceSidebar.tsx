@@ -80,8 +80,7 @@ const ServiceSidebar = () => {
           <h4 className="sidebar__widget-title">Logistics Expertise</h4>
           <div className="sidebar__logistics">
             <p style={{ color: "white" }}>
-              Streamlined supply chain solutions tailored for Kochi and Dubai,
-              ensuring efficient logistics and regional market success.
+             Streamlined procurement and supply chain solutions tailored to cater to requirements of all major industries, ensuring efficient mobility of products and resources across the world.
             </p>
             
           </div>

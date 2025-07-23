@@ -100,9 +100,10 @@ const FooterOne = () => {
                     <li>
                       <i className="flaticon-location-1"></i>
                       <p>
-                        IW3 Infralog LLC-FZ
+                        IW3 Infralog LLC-FZ,
                         <br />
                         Meydan Free Zone, 
+                        <br />
                         Nad Al Sheba,
                         <br />
                         P.O. Box 35195
