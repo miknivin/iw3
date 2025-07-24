@@ -1,3 +1,4 @@
+
 import InjectableSvg from "@/components/common/InjectableSvg";
 import service_data from "@/data/ServicesData";
 import Image from "next/image";
@@ -36,7 +37,13 @@ const ServiceArea = () => {
                   </div>
                   <div className="services__content-three">
                     <div className="services__icon-three">
-                      <i className={item.icon}></i> {/* Dynamic icon from data */}
+                      <Image
+                        src={item.icon}
+                        alt={`${item.title} icon`}
+                        width={50} // Adjust size as needed
+                        height={50} // Adjust size as needed
+                        style={{ objectFit: "contain" }}
+                      />
                     </div>
                     <h4 className="title">
                       <Link href={`/services-details/${item.id}`}>
