@@ -1,5 +1,7 @@
+
 import InjectableSvg from "@/components/common/InjectableSvg"
 import service_data from "@/data/ServicesData"
+import Image from "next/image"
 import Link from "next/link"
 
 const Service = () => {
@@ -27,7 +29,13 @@ const Service = () => {
                      <div className="services__item-two">
                         <div className="services__item-top">
                            <div className="services__icon-two">
-                              <i className={item.icon}></i>
+                              <Image
+                                 src={item.icon}
+                                 alt={`${item.title} icon`}
+                                 width={50}
+                                 height={50}
+                                 style={{ objectFit: "contain" }}
+                              />
                            </div>
                            <h2 className="title"><Link href="/services-details">{item.title}</Link></h2>
                         </div>
@@ -36,8 +44,12 @@ const Service = () => {
                            <ul className="services__item-list list-wrap">
                               {item.list?.map((list, i) => (
                                  <li key={i}><i className="flaticon-check"></i>{list}</li>
-                              ))}                                </ul>
-                           <Link href="/services-details" className="btn border-btn-two">Read More <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
+                              ))}
+                           </ul>
+                           <Link href="/services-details" className="btn border-btn-two">
+                              Read More 
+                              <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" />
+                           </Link>
                         </div>
                      </div>
                   </div>

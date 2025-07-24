@@ -1,3 +1,4 @@
+
 import InjectableSvg from "@/components/common/InjectableSvg"
 import service_data from "@/data/ServicesData"
 import Image from "next/image"
@@ -30,13 +31,27 @@ const Service = () => {
                      <div className="services__item-three">
                         <div className="services__thumb-three">
                            <Link href="/services-details">
-                              <Image src={item.img ? item.img : ""} alt="img" />
+                              <Image 
+                                 src={item.img ?? "/assets/img/default_service.jpg"} 
+                                 alt={item.title} 
+                                 width={370} // Adjust size as needed
+                                 height={250}
+                              />
                            </Link>
-                           <Link href="/services-details" className="btn border-btn">Read More <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
+                           <Link href="/services-details" className="btn border-btn">
+                              Read More 
+                              <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" />
+                           </Link>
                         </div>
                         <div className="services__content-three">
                            <div className="services__icon-three">
-                              <i className={item.icon}></i>
+                              <Image
+                                 src={item.icon}
+                                 alt={`${item.title} icon`}
+                                 width={50} // Adjust size as needed
+                                 height={50}
+                                 style={{ objectFit: "contain" }}
+                              />
                            </div>
                            <h4 className="title"><Link href="/services-details">{item.title}</Link></h4>
                            <p>{item.desc}</p>

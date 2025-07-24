@@ -17,7 +17,7 @@ const CTA = () => {
                      <p>Experience top-notch travel with our premier transport services, tailored for your comfort and convenience.</p>
                   </div>
                   <div className="cta__btn-two cta__btn-three">
-                     <Link href="/contact" className="btn">Read More </Link>
+                     <Link href="/about" className="btn">Read More </Link>
                   </div>
                </div>
             </div>
