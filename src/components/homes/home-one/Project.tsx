@@ -152,6 +152,11 @@ const Project = () => {
                background: #fff;
             }
             
+            @media (max-width: 767.98px) {
+    .project__thumb img {
+               height: 300px; 
+               min-height: 62vh;
+            }
             .project__thumb {
                position: relative;
                overflow: hidden;
@@ -165,6 +170,7 @@ const Project = () => {
             @media (max-width: 768px) {
                .project__content {
                   padding: 15px !important;
+                  min-height: 60vh;
                }
             }
          `}</style>
