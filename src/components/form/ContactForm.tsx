@@ -3,13 +3,14 @@ import { toast } from 'react-toastify';
 import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
-import emailjs from '@emailjs/browser';
-import { useRef } from 'react';
+import { useState } from 'react';
 import InjectableSvg from "../common/InjectableSvg"
 
 interface FormData {
    user_name: string;
    user_email: string;
+   phone?: string;
+   subject?: string;
    message: string;
 }
 
@@ -17,34 +18,59 @@ const schema = yup
    .object({
       user_name: yup.string().required().label("Name"),
       user_email: yup.string().required().email().label("Email"),
+      phone: yup.string().optional().label("Phone"),
+      subject: yup.string().optional().label("Subject"),
       message: yup.string().required().label("Message"),
    })
    .required();
 
 const ContactForm = () => {
+   const [isSubmitting, setIsSubmitting] = useState(false);
 
    const { register, handleSubmit, reset, formState: { errors }, } = useForm<FormData>({ resolver: yupResolver(schema), });
 
-   const form = useRef<HTMLFormElement>(null);
+   const handleFormSubmit = async (data: FormData) => {
+      setIsSubmitting(true);
+      
+      try {
+         const response = await fetch('/api/contact', {
+            method: 'POST',
+            headers: {
+               'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+               name: data.user_name,
+               email: data.user_email,
+               phone: data.phone,
+               subject: data.subject,
+               message: data.message,
+            }),
+         });
 
-   const sendEmail = () => {
-      if (form.current) {
-         emailjs.sendForm('eaglesthemes', 'template_lojvsvb', form.current, 'mtLgOuG25NnIwGeKm')
-            .then((result) => {
-               const notify = () => toast('Message sent successfully', { position: 'top-center' });
-               notify();
-               reset();
-               console.log(result.text);
-            }, (error) => {
-               console.log(error.text);
+         if (response.ok) {
+            const result = await response.json();
+            toast.success('Message sent successfully! We\'ll get back to you soon.', { 
+               position: 'top-center',
+               autoClose: 5000,
             });
-      } else {
-         console.error("Form reference is null");
+            reset();
+         } else {
+            const error = await response.json();
+            throw new Error(error.error || 'Failed to send message');
+         }
+      } catch (error) {
+         console.error('Error sending message:', error);
+         toast.error('Failed to send message. Please try again later.', { 
+            position: 'top-center',
+            autoClose: 5000,
+         });
+      } finally {
+         setIsSubmitting(false);
       }
    };
 
    return (
-      <form ref={form} onSubmit={handleSubmit(sendEmail)} className="contact__form" id="contact-form">
+      <form onSubmit={handleSubmit(handleFormSubmit)} className="contact__form" id="contact-form">
          <div className="row gutter-20">
             <div className="col-lg-4">
                <div className="form-grp">
@@ -61,18 +87,27 @@ const ContactForm = () => {
             </div>
             <div className="col-lg-4">
                <div className="form-grp">
-                  <input type="tel" name="phone" placeholder="Phone" />
+                  <input {...register("phone")} type="tel" placeholder="Phone" />
+                  <p className="form_error">{errors.phone?.message}</p>
                </div>
             </div>
          </div>
          <div className="form-grp">
-            <input type="text" name="subject" placeholder="Subject" />
+            <input {...register("subject")} type="text" placeholder="Subject" />
+            <p className="form_error">{errors.subject?.message}</p>
          </div>
          <div className="form-grp">
             <textarea {...register("message")} placeholder="Comments"></textarea>
             <p className="form_error">{errors.message?.message}</p>
          </div>
-         <button type="submit" className="btn red-btn">Send Me Message <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></button>
+         <button 
+            type="submit" 
+            className="btn red-btn" 
+            disabled={isSubmitting}
+         >
+            {isSubmitting ? 'Sending...' : 'Send Me Message'} 
+            <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" />
+         </button>
       </form>
    )
 }

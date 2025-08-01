@@ -26,8 +26,8 @@ const Service = () => {
             </div>
             <div className="row gutter-24 justify-content-center">
                {service_data.filter((items) => items.page === "home_1").map((item) => (
-                  <div key={item.id} className="col-xl-3 col-lg-4 col-sm-6">
-                     <div className="services__item">
+                  <div key={item.id} className="col-xl-3 col-lg-4 col-sm-6 d-flex">
+                     <div className="services__item h-100 d-flex flex-column">
                         <div className="services__thumb-wrap">
                            <div className="services__thumb">
                               <Image 
@@ -51,9 +51,9 @@ const Service = () => {
                               />
                            </div>
                         </div>
-                        <div className="services__content">
+                        <div className="services__content flex-grow-1 d-flex flex-column">
                            <h3 className="title"><Link href="/services-details">{item.title}</Link></h3>
-                           <p>{item.desc}</p>
+                           <p className="flex-grow-1">{item.desc}</p>
                         </div>
                      </div>
                   </div>
