@@ -12,8 +12,8 @@ const ServiceArea = () => {
           {service_data
             .filter((item) => item.page === "home_1") // Filter for home page services
             .map((item) => (
-              <div key={item.id} className="col-lg-3 col-md-6"> {/* 4 items per row on large screens */}
-                <div className="services__item-three">
+              <div key={item.id} className="col-lg-3 col-md-6 d-flex"> {/* 4 items per row on large screens */}
+                <div className="services__item-three h-100 d-flex flex-column">
                   <div className="services__thumb-three">
                     <Link href={`/services-details/${item.id}`}>
                       <Image 
@@ -35,7 +35,7 @@ const ServiceArea = () => {
                       />
                     </Link>
                   </div>
-                  <div className="services__content-three">
+                  <div className="services__content-three flex-grow-1 d-flex flex-column">
                     <div className="services__icon-three">
                       <Image
                         src={item.icon}
@@ -50,7 +50,7 @@ const ServiceArea = () => {
                         {item.title}
                       </Link>
                     </h4>
-                    <p>{item.desc}</p> {/* Description from data */}
+                    <p className="flex-grow-1">{item.desc}</p> {/* Description from data */}
                   </div>
                 </div>
               </div>
