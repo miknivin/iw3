@@ -48,7 +48,6 @@ const ContactForm = () => {
          });
 
          if (response.ok) {
-            const result = await response.json();
             toast.success('Message sent successfully! We\'ll get back to you soon.', { 
                position: 'top-center',
                autoClose: 5000,
