@@ -34,7 +34,7 @@ const Vision = () => {
                               <div className="progress">
                                  <div className="progress-bar"
                                     style={{
-                                       width: "82%",
+                                       width: "95%",
                                        animation: inView ? "animate-positive 1.8s" : "none",
                                        opacity: inView ? "1" : "0",
                                     }}></div>
