@@ -130,7 +130,7 @@ Nad Al Sheba, P.O. Box 35195   <br /> Dubai, UAE
 
                     <li className="flex items-start gap-3">
                       <i className="fas fa-envelope mt-2"></i>
-                      <Link href="mailto:info@iw3.in">info@iw3.in</Link>
+                      <Link href="mailto:sales@iw3.in">sales@iw3.in</Link>
                     </li>
                     <li>
                       <i className="flaticon-time"></i>

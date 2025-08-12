@@ -10,7 +10,7 @@ const HeaderTopFour = () => {
                   <ul className="tg-header__top-info tg-header__top-info-two left-side list-wrap">
                      <li><i className="flaticon-location-1"></i>IW3 Infralog LLC-FZ
 Meydan Free Zone</li>
-                     <li><i className="flaticon-envelope"></i><a href="mailto:info@gmail.com">info@iw3.in</a></li>
+                     <li><i className="flaticon-envelope"></i><a href="mailto:info@gmail.com">sales@iw3.in</a></li>
                      <li><i className="flaticon-time"></i>Mon – Sat: 8.00 am – 6.00pm</li>
                   </ul>
                </div>

@@ -160,8 +160,8 @@ export async function POST(request: NextRequest) {
               IW3 Infralog LLC-FZ<br>
               Meydan Free Zone, Nad Al Sheba<br>
               P.O. Box 35195, Dubai, UAE<br>
-              Phone: +971 47777222 | +971 56 2212979<br>
-              Email: info@iw3.in
+              Phone: +971 47777222 | +971559353359<br>
+              Email: sales@iw3.in
             </p>
           </div>
         </div>

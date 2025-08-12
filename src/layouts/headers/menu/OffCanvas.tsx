@@ -41,7 +41,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
           </div>
           <div className="contact-list mb-30">
             <h4>Email Address</h4>
-            <Link href="mailto:info@iw3.in">info@iw3.in</Link>
+            <Link href="mailto:sales@iw3.in">sales@iw3.in</Link>
           </div>
         </div>
         {/* <div className="offCanvas__social-icon mt-30">

@@ -39,9 +39,9 @@ Nad Al Sheba,
 P.O. Box 35195 
   <br /> Dubai, UAE</p>
                      <p className="contact__description-text"><Link href="tel:+97147777222">+97147777222</Link></p>
-                      <p className="contact__description-text"><Link href="tel:+971 56 2212979">+971 56 2212979</Link></p>
+                      <p className="contact__description-text"><Link href="tel:+971559353359">+971559353359</Link></p>
                      <p className="info-two">Monday – Friday: 8:00 am-5:00 pm<br /></p>
-                     <Link href="mailto:info@iw3.in">info@iw3.in</Link>
+                     <Link href="mailto:sales@iw3.in">sales@iw3.in</Link>
                   </div>
                </div>
                {/* <div className="col-lg-4 col-sm-6">
