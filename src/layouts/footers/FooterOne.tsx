@@ -113,12 +113,9 @@ const FooterOne = () => {
                     </li>
                     <li>
                       <i className="flaticon-telephone"></i>
-                      <Link href="tel:+97147777222">+97147777222</Link>
+                      <Link href="tel:+97147777222">+97147777222 , +971559353359</Link>
                     </li>
-                       <li>
-                      <i className="flaticon-telephone"></i>
-                      <Link href="tel:+971559353359">+971559353359</Link>
-                    </li>
+                    
                     <li className="flex items-start gap-3">
                       <i className="fas fa-envelope mt-2"></i>
                       <Link href="mailto:sales@iw3.in">sales@iw3.in</Link>
