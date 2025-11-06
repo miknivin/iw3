@@ -2,23 +2,25 @@
 import VideoPopup from "@/modals/VideoPopup";
 import { useState } from "react";
 import Image from "next/image";
-import ServiceSidebar from "./ServiceSidebar";
-import { useInView } from "react-intersection-observer";
-
-import { useParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 import serviceData from "@/data/ServiceData";
 
 const ServiceDetailsArea = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.75,
-  });
-
   const [isVideoOpen, setIsVideoOpen] = useState(false);
   
-  // Get the ID from the URL
-  const params = useParams();
-  const serviceId = params.id;
+  // Get the service ID from the pathname
+  const pathname = usePathname();
+  let serviceId: string;
+  
+  // Handle both old and new route formats
+  if (pathname.includes('/services-details/')) {
+    // Old format: /services-details/[id]
+    serviceId = pathname.split('/services-details/')[1];
+  } else {
+    // New format: /[serviceName]
+    serviceId = pathname.replace('/', '');
+  }
+  
   console.log("Service ID:", serviceId);
   // Find the service with matching ID
   const service = serviceData.find(item => item.id === serviceId);
@@ -34,7 +36,7 @@ const ServiceDetailsArea = () => {
         <div className="container">
           <div className="services__details-inner">
             <div className="row">
-              <div className="col-70 order-0 order-lg-2">
+              <div className="col-12">
                 <div className="services__details-thumb">
                   <Image src={service.mainImage} alt={service.mainTitle} />
                 </div>
@@ -43,39 +45,10 @@ const ServiceDetailsArea = () => {
                   <p>{service.mainDescription}</p>
                   
                   <div className="services__details-content-inner">
-                    <div className="row align-items-end">
-                      <div className="col-md-6">
+                    <div className="row">
+                      <div className="col-12">
                         <h2 className="title-two">{service.subTitle}</h2>
                         <p>{service.subDescription}</p>
-                      </div>
-                      <div className="col-md-6">
-                        <div
-                          className="progress__wrap progress__wrap-three"
-                          ref={ref}
-                        >
-                          {service.progressMetrics.map((metric, index) => (
-                            <div key={index} className="progress__item progress__item-three">
-                              <div className="progress__item-top">
-                                <h3 className="progress__title">{metric.title}</h3>
-                                <div className="progress-value">
-                                  <span className="counter-number">{metric.value}</span>%
-                                </div>
-                              </div>
-                              <div className="progress">
-                                <div
-                                  className="progress-bar"
-                                  style={{
-                                    width: `${metric.value}%`,
-                                    animation: inView
-                                      ? "animate-positive 1.8s"
-                                      : "none",
-                                    opacity: inView ? "1" : "0",
-                                  }}
-                                ></div>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -144,9 +117,51 @@ const ServiceDetailsArea = () => {
                       </div>
                     </div>
                   </div>
+                  
+                  {/* CTA Section */}
+                  {service.cta && (
+                    <div className="services__details-cta">
+                      <div className="cta__wrapper" style={{
+                        background: '#001b90',
+                        padding: '40px 20px',
+                        borderRadius: '12px',
+                        textAlign: 'center',
+                        marginTop: '40px'
+                      }}>
+                        <h3 style={{
+                          color: 'white',
+                          fontSize: 'clamp(1.2rem, 4vw, 1.5rem)',
+                          marginBottom: '20px',
+                          fontWeight: '600',
+                          lineHeight: '1.3'
+                        }}>
+                          Ready to Get Started?
+                        </h3>
+                        <a 
+                          href="/contact" 
+                          className="btn btn-white"
+                          style={{
+                            background: 'white',
+                            color: '#0066cc',
+                            padding: 'clamp(10px, 3vw, 12px) clamp(20px, 6vw, 30px)',
+                            borderRadius: '6px',
+                            textDecoration: 'none',
+                            fontWeight: '600',
+                            fontSize: 'clamp(0.9rem, 3vw, 1.1rem)',
+                            display: 'inline-block',
+                            transition: 'all 0.3s ease',
+                            maxWidth: '100%',
+                            wordBreak: 'break-word',
+                            textAlign: 'center'
+                          }}
+                        >
+                          {service.cta}
+                        </a>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
-              <ServiceSidebar />
             </div>
           </div>
         </div>

@@ -38,18 +38,18 @@ const menu_data: MenuItem[] = [
       title: "Services",
       link: "/services",
       sub_menus: [
-         { link: "/services-details/svc-infra-001", title: "Infrastructure" },
+         { link: "/infrastructure", title: "Infrastructure" },
          // { link: "/history", title: "Our Company History" },
          {
-            link: "/services-details/svc-infra-002", title: "Procurement"
+            link: "/procurement", title: "Procurement"
             
          },
          {
-             link: "/services-details/svc-youth-001", title: "Logistics"
+             link: "/logistics", title: "Logistics"
             
          },
          {
-           link: "/services-details/svc-infra-003", title: "Consulting"
+           link: "/consulting", title: "Consulting"
            
             
          },

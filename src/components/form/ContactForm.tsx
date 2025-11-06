@@ -9,17 +9,18 @@ import InjectableSvg from "../common/InjectableSvg"
 interface FormData {
    user_name: string;
    user_email: string;
-   phone?: string;
-   subject?: string;
+   company?: string;
+Enquiry?: string;
    message: string;
 }
 
 const schema = yup
    .object({
-      user_name: yup.string().required().label("Name"),
-      user_email: yup.string().required().email().label("Email"),
-      phone: yup.string().optional().label("Phone"),
-      subject: yup.string().optional().label("Subject"),
+user_name: yup.string().required().label("Name"),
+user_email: yup.string().required().email().label("Email"),
+company: yup.string().optional().label("Phone"),
+Enquiry: yup.string().optional(),
+subject: yup.string().optional().label("Subject"),
       message: yup.string().required().label("Message"),
    })
    .required();
@@ -41,8 +42,8 @@ const ContactForm = () => {
             body: JSON.stringify({
                name: data.user_name,
                email: data.user_email,
-               phone: data.phone,
-               subject: data.subject,
+               company: data.company,
+               Enquiry: data.Enquiry,
                message: data.message,
             }),
          });
@@ -86,17 +87,17 @@ const ContactForm = () => {
             </div>
             <div className="col-lg-4">
                <div className="form-grp">
-                  <input {...register("phone")} type="tel" placeholder="Phone" />
-                  <p className="form_error">{errors.phone?.message}</p>
+                  <input {...register("company")} placeholder="company" />
+                  <p className="form_error">{errors.company?.message}</p>
                </div>
             </div>
          </div>
          <div className="form-grp">
-            <input {...register("subject")} type="text" placeholder="Subject" />
-            <p className="form_error">{errors.subject?.message}</p>
+            <input {...register("Enquiry")} type="text" placeholder="Enquiry" />
+            <p className="form_error">{errors.Enquiry?.message}</p>
          </div>
          <div className="form-grp">
-            <textarea {...register("message")} placeholder="Comments"></textarea>
+            <textarea {...register("message")} placeholder="Message"></textarea>
             <p className="form_error">{errors.message?.message}</p>
          </div>
          <button 

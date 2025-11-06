@@ -7,13 +7,17 @@ import CTA from "../../who-we-are/CTA"
 import HeaderOne from "@/layouts/headers/HeaderOne"
 import FooterOne from "@/layouts/footers/FooterOne"
 
-const ServiceDetails = () => {
+interface ServiceDetailsProps {
+   serviceName?: string;
+}
+
+const ServiceDetails = ({ serviceName }: ServiceDetailsProps) => {
    return (
       <div className="theme-red">
          <ScrollToTop />
          <HeaderOne />
          <main className="fix">
-            <Breadcumb title="Our Services" sub_title="Service Details" />
+            <Breadcumb title={serviceName || "Our Services"} sub_title="Service Details" />
             <ServiceDetailsArea />
          </main>
          <CTA />

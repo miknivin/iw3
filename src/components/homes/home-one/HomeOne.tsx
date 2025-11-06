@@ -5,7 +5,7 @@ import About from "./About"
 import Service from "./Service"
 import Choose from "./Choose"
 import Achieved from "./Achieved"
-import Marquee from "./Marquee"
+// import Marquee from "./Marquee"
 import Project from "./Project"
 // import VideoArea from "./VideoArea"
 // import RequestArea from "./RequestArea"
@@ -15,6 +15,8 @@ import Project from "./Project"
 import HeaderOne from "@/layouts/headers/HeaderOne"
 import ContactMap from "./ContactMap"
 import ScrollToTop from "@/components/common/ScrollToTop"
+import StatsSection from "./StatsSection"
+import Advantages from "./Advantages"
 
 
 const HomeOne = () => {
@@ -27,9 +29,10 @@ const HomeOne = () => {
             <About />
             {/* <Brand style={false} /> */}
             <Service />
+            <Advantages />
             <Choose />
             <Achieved />
-            <Marquee style={false} />
+            {/* <Marquee style={false} /> */}
             <Project />
             {/* <VideoArea style={false} /> */}
             {/* <RequestArea style={false} /> */}
@@ -37,6 +40,7 @@ const HomeOne = () => {
 {/*           
             <WorkArea /> */}
             {/* <Blog /> */}
+            <StatsSection />
             <ContactMap />
          </main>
          <FooterOne />

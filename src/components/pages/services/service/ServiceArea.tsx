@@ -15,7 +15,7 @@ const ServiceArea = () => {
               <div key={item.id} className="col-lg-3 col-md-6 d-flex"> {/* 4 items per row on large screens */}
                 <div className="services__item-three h-100 d-flex flex-column">
                   <div className="services__thumb-three">
-                    <Link href={`/services-details/${item.id}`}>
+                    <Link href={`/${item.id}`}>
                       <Image 
                         src={item.img ?? "/assets/img/default_service.jpg"} 
                         alt={item.title} 
@@ -24,7 +24,7 @@ const ServiceArea = () => {
                       />
                     </Link>
                     <Link 
-                      href={`/services-details/${item.id}`} 
+                      href={`/${item.id}`} 
                       className="btn border-btn"
                     >
                       Read More 
@@ -46,7 +46,7 @@ const ServiceArea = () => {
                       />
                     </div>
                     <h4 className="title">
-                      <Link href={`/services-details/${item.id}`}>
+                      <Link href={`/${item.id}`}>
                         {item.title}
                       </Link>
                     </h4>

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 
@@ -8,79 +8,88 @@ import shape from "@/assets/img/images/achieved_shape.png";
 const Achieved: React.FC = () => {
    const [ref, inView] = useInView({
       triggerOnce: true,
-      threshold: 0.75,  
+      threshold: 0.75,
    });
 
    return (
       <section className="achieved__area fix">
          <div className="container">
             <div className="row justify-content-center">
+               {/* Image - Unchanged */}
                <div className="col-lg-6 col-md-10 order-0 order-lg-2">
                   <div className="achieved__img">
                      <Image
                         src={achieve_img}
-                        alt="img"
+                        alt="IW3 Container Logistics"
                         className="wow bounceInDown"
                         data-wow-delay=".3s"
                      />
                   </div>
                </div>
+
+               {/* Content - Enhanced Text Size & Weight */}
                <div className="col-lg-6">
                   <div className="achieved__content">
                      <div className="section__title mb-30">
-                      <span className="sub-title" style={{ fontSize: '1.5rem', fontWeight: '600' }}>
-  On Time Delivery
-</span>
-                        {/* <h2 className="title">
-                          team will ensure that your delivery timelines are always met seamlessly, whether it is installation or transportation
-                        </h2> */}
+                        <span 
+                           className="sub-title" 
+                           style={{ 
+                              fontSize: '2rem',     // Larger
+                              fontWeight: '800',    // Bolder
+                              letterSpacing: '0.5px'
+                           }}
+                        >
+                           Who We Work With
+                        </span>
                      </div>
-                     <p>
-                      Our experienced team will ensure that your delivery timelines are always met seamlessly, whether it is installation or transportation
+
+                     <p style={{
+                        fontSize: '1.25rem',     // Larger paragraph text
+                        fontWeight: '600',       // Semi-bold
+                        lineHeight: '1.7',
+                        color: '#222',
+                        marginBottom: '24px'
+                     }}>
+                        We serve organizations where timing, scale, and confidentiality define success. Our work spans:
                      </p>
-                     
+
+                     {/* Bullet Points - Larger & Bolder */}
                      <div className="progress__wrap" ref={ref}>
-                        <div className="progress__item">
-                           <div className="progress__item-top">
-                              <h3 className="progress__title">Successful Delivery</h3>
-                              <div className="progress-value">
-                                 <span className="counter-number">95</span>%
-                              </div>
-                           </div>
-                           <div className="progress">
-                              <div
-                                 className="progress-bar"
-                                 style={{
-                                    width: "95%",
-                                    animation: inView ? "animate-positive 1.8s" : "none",
-                                    opacity: inView ? "1" : "0",
+                        <ul style={{ 
+                           paddingLeft: "28px", 
+                           margin: "20px 0", 
+                           color: "#222" 
+                        }}>
+                           {[
+                              "Infrastructure and development projects",
+                              "Energy and natural resources",
+                              "Government and public-sector projects",
+                              "Strategic industry partnerships",
+                              "International trade and private enterprises"
+                           ].map((item, i) => (
+                              <li 
+                                 key={i} 
+                                 style={{ 
+                                    marginBottom: "12px", 
+                                    fontSize: "1.1rem",           // Larger bullet text
+                                    fontWeight: "700",            // Bold
+                                    opacity: inView ? 1 : 0,
+                                    transform: inView ? "translateY( staggered)" : "translateY(15px)",
+                                    transition: `all 0.7s ease ${i * 0.15}s`,
+                                    lineHeight: '1.6'
                                  }}
-                              ></div>
-                           </div>
-                        </div>
-                        <div className="progress__item">
-                           <div className="progress__item-top">
-                              <h3 className="progress__title">Happy Customers</h3>
-                              <div className="progress-value">
-                                 <span className="counter-number">90</span>%
-                              </div>
-                           </div>
-                           <div className="progress">
-                              <div
-                                 className="progress-bar"
-                                 style={{
-                                    width: "90%",
-                                    animation: inView ? "animate-positive 1.8s" : "none",
-                                    opacity: inView ? "1" : "0",
-                                 }}
-                              ></div>
-                           </div>
-                        </div>
+                              >
+                                 {item}
+                              </li>
+                           ))}
+                        </ul>
                      </div>
                   </div>
                </div>
             </div>
          </div>
+
+         {/* Shape - Unchanged */}
          <div className="achieved__shape">
             <Image src={shape} alt="shape" />
          </div>

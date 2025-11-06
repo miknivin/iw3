@@ -24,36 +24,36 @@ interface DataType {
 
 const service_data: DataType[] = [
    {
-      id: "svc-infra-001",
+      id: "infrastructure",
       page: "home_1",
       img: service_1,
       icon: infrastructure_icon, // Changed to image
       title: "Infrastructure",
-      desc: "iW3 began its journey with a goal to democratize industrial warehousing and logistics infrastructure",
+      desc: "We build and connect logistics infrastructure that drives economic growth and industrial efficiency.",
    },
    {
-      id: "svc-infra-002",
+      id: "procurement",
       page: "home_1",
       img: service_2,
       icon: procurement_icon, // Changed to image
       title: "Procurement",
-      desc: "iW3 has expertise and experience in handling time-bound Project Logistics",
+      desc: "We source, validate, and deliver specialized products and systems across critical sectors, combining discretion with technical depth",
    },
    {
-      id: "svc-youth-001",
+      id: "logistics",
       page: "home_1",
       img: service_3,
       icon: logistics_icon, // Changed to image
       title: "Logistics",
-      desc: "iW3 can assist with specific product procurement requirements of its customers",
+      desc: "We handle complex project logistics across air, sea, and road — delivering high-value cargo safely, efficiently, and on schedule",
    },
    {
-      id: "svc-infra-003",
+      id: "consulting",
       page: "home_1",
       img: service_4,
       icon: consulting_icon, // Changed to image
       title: "Consulting",
-      desc: "iW3 offers consulting services in various areas such as infrastructure projects, planning, procurement and logistics",
+      desc: "We advise and execute strategies for growth, operations, and talent in logistics, infrastructure, and procurement sectors",
    },
 
    // home_2

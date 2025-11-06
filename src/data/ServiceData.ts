@@ -5,194 +5,206 @@ import service_details3 from "@/assets/img/services/services_img12.jpg";
 import service_details4 from "@/assets/img/services/services_img14.jpg";
 const serviceData = [
   {
-    id: "svc-infra-001",
+    id: "infrastructure",
+    seoTitle: "Logistics Infrastructure Solutions | iW3 Global",
+    metaDescription: "iW3 builds scalable logistics infrastructure across emerging markets — warehousing, ports, and transport systems designed to power industrial growth and investment opportunities.",
     mainTitle: "Logistics Infrastructure Solutions",
     mainDescription:
-      "iW3 began its journey with a goal to democratize industrial warehousing and logistics infrastructure. We firmly believe that robust logistics infrastructure is essential for developing countries to scale their economic outputs. This can only be achieved by competing globally with quality products at competitive prices. Developing countries face a clear gap in logistics infrastructure, resulting in high logistics-related costs. For example, in India, logistics costs account for 12-13% of GDP, compared to an average of 6-7% for developed countries like Germany, France, and the USA.",
-    subTitle: "Our Next Level Logistics Around the World",
+      "iW3 began its journey with a goal to democratize industrial warehousing and logistics infrastructure. We believe that strong logistics infrastructure is essential for developing countries to scale their economic outputs and compete globally with quality products at competitive prices. Developing nations face a clear gap in logistics infrastructure, driving up logistics costs to 12–13% of GDP compared to 6–7% in developed countries. Bridging this gap is critical for long-term growth.",
+    subTitle: "Next-Level Logistics Around the World",
     subDescription:
-      "The time is ripe for investing in infrastructure solutions in developing countries with high growth potential due to their youthful demographics. India alone requires over $1.4 trillion in infrastructure investment over the next 5 years to achieve its $5 trillion economy target. This necessitates affordable, long-term financing to build quality warehouses, airports, seaports, drone launch pads, highways, and more, all aimed at moving goods from manufacturer to consumer at the lowest cost.",
+      "The time is ripe to invest in logistics infrastructure across developing economies. India alone requires over $1.4 trillion in infrastructure investment over the next five years to achieve its $5 trillion economy target. This calls for affordable, long-term financing to build warehouses, ports, drone pads, and highways to move goods efficiently from manufacturer to consumer.",
     progressMetrics: [
       { title: "Successful Delivery", value: 95 },
       { title: "Happy Customers", value: 90 },
     ],
     additionalDescription:
-      "Beyond logistics, we are optimistic about youth-oriented infrastructure projects in areas like schools, colleges, hostels, sports, music, and travel. We are launching a digital platform where retail investors can explore these opportunities and invest in specific projects for monthly rental revenue.",
-    benefitsTitle: "Raise Capital Faster & Negotiate on Your Own Terms",
+      "Beyond logistics, we are optimistic about youth-oriented infrastructure in education, sports, and travel. We're launching a digital platform where retail investors can invest in such projects for monthly rental returns.",
+    benefitsTitle: "Raise Capital Faster, Negotiate on Your Own Terms",
     benefitsDescription:
-      "Our platform empowers businesses to secure funding efficiently while maintaining control over terms, ensuring flexibility and scalability.",
+      "Our platform empowers businesses to secure funding efficiently while maintaining control and flexibility.",
     benefitsList: [
-      "Reliable ",
-      "Experienced",
-      "Professional ",
-      "Speed ",
+      "Explore Investment Opportunities",
+      "Flexible Investment Options", 
+      "Monthly Rental Returns",
+      "Secure Platform Access",
     ],
     faqs: [
       {
-        question: "Which Plan Is Right For Me?",
+        question: "What types of infrastructure projects are available?",
         answer:
-          "Our plans are tailored to your investment goals, whether you’re focusing on logistics or youth-oriented projects. Explore our platform to find the best fit.",
+          "Our platform features logistics infrastructure including warehouses, ports, and transportation hubs, as well as youth-oriented projects in education, sports, and travel sectors.",
       },
       {
-        question: "Do I Have to Commit to a Contract?",
+        question: "How do I start investing in infrastructure projects?",
         answer:
-          "No long-term contracts are required. Our platform offers flexible investment options, allowing you to choose projects that suit your timeline.",
+          "Simply explore our investment opportunities on the platform, review project details, and choose investments that align with your goals and risk tolerance.",
       },
       {
-        question: "What Payment Methods Are Available?",
+        question: "What returns can I expect from infrastructure investments?",
         answer:
-          "We support multiple payment methods, including bank transfers, credit cards, and digital wallets, ensuring seamless transactions for investors worldwide.",
+          "Our infrastructure projects are designed to provide stable monthly rental returns, with specific yields varying by project type and investment duration.",
       },
     ],
+    cta: "→ Explore Investment Opportunities",
     // videoId: "Ml4XCF-JS0k",
     mainImage: service_details1,
     secondaryImage: service_details1,
   },
   {
-    id: "svc-infra-002",
-
-  mainTitle: "Emergency Project Procurement",
-  mainDescription: "iW3 can assist with specific product procurement requirements of its customers. This especially comes in handy when we are engaged in executing a project and the customer wants to buy additional material at short notice. We provide procurement and delivery solutions for projects by sourcing, purchasing and delivering quality bulk materials and equipment as per your requirements and within your budget.",
-  subTitle: "Rapid Sourcing for Unplanned Project Needs",
-  subDescription: "Our emergency procurement network covers 12 commodity categories across 35 countries, specializing in last-minute project requirements. When design changes or unexpected needs arise during execution, we guarantee material availability within 72 hours for 85% of standard construction items, with full logistics integration to your project site.",
-progressMetrics: [
+    id: "procurement",
+    seoTitle: "Strategic Global Procurement Services | iW3",
+    metaDescription: "From diagnostic kits to advanced systems, iW3 provides strategic procurement solutions backed by technical expertise and trusted international networks.",
+    mainTitle: "Strategic Global Procurement Services",
+    mainDescription: "At iW3, procurement isn't about buying, it's about building capability. We specialize in sourcing and delivering products and systems that are critical, sensitive, or technically demanding. Our procurement practice combines industry knowledge, supplier intelligence, and operational oversight to deliver what others can't.",
+    subTitle: "Our Approach",
+    subDescription: "We work as an extension of your organization identifying, evaluating, and managing suppliers through every stage of the procurement process. From requirement mapping to compliance checks, our team ensures quality, traceability, and value for every acquisition. Our partnerships extend across regions and sectors, giving us access to trusted networks and specialized manufacturing clusters. This enables us to respond rapidly to urgent requirements, complex technical specifications, or discreet sourcing missions.",
+    progressMetrics: [
       { title: "Successful Delivery", value: 95 },
       { title: "Happy Customers", value: 90 },
     ],
-  additionalDescription: "We maintain strategic buffer stocks of high-demand project materials at regional hubs, combined with real-time supplier capacity monitoring. This enables same-day purchase order processing for 60% of emergency requests, with digital tracking from supplier to site.",
-  benefitsTitle: "Your Project's Safety Net for Material Needs",
-  benefitsDescription: "Contact us with your requirements and our team will procure it for you in the shortest time Some of our focus areas include:",
-  benefitsList: [
-    "Spices & foodstuff",
-    "Humanitarian supplies",
-    "Hygiene Products",
-    "Office stationeries",
-    "Government supplies",
-    "Machinery",
-    "Oil Lubricants & Chemicals",
-    "General Trading",
-  ],
-  faqs: [
-    {
-      question: "What's your response time for urgent requests?",
-      answer: "Critical requests receive vendor responses within 2 business hours, with materials typically enroute within 24 hours for stocked items."
-    },
-    {
-      question: "How do you maintain budget compliance?",
-      answer: "Our pre-established supplier agreements and volume discounts ensure emergency purchases stay within 5% of planned material costs, with no rush-order premiums."
-    },
-    {
-      question: "Can you handle specialized equipment?",
-      answer: "Yes, our technical procurement team sources everything from structural steel to specialized MEP components, with expedited shipping options for oversized loads."
-    },
-    {
-      question: "Do you provide procurement for small quantities?",
-      answer: "We optimize small orders through consolidated purchasing with other projects in your region, maintaining cost efficiency even for partial truckloads."
-    }
-  ],
-  // videoId: "EmergencyProcurementDemo",
-  mainImage: service_details2, // Replace with actual procurement image
-  secondaryImage: service_details2 // Replace with actual procurement image
-},
+    additionalDescription: "We also support project-based procurement for infrastructure, logistics, and government programs requiring long-term technical reliability and secure delivery.",
+    benefitsTitle: "What We Deliver",
+    benefitsDescription: "We procure and manage a range of high-impact products including:",
+    benefitsList: [
+      "Medical Diagnostic Kits",
+      "Defense Equipment",
+      "Advanced Strategic Systems",
+      "Aid & Relief Material",
+      "Camp Supplies",
+      "FMCG and perishables",
+    ],
+    faqs: [
+      {
+        question: "What makes your procurement approach different?",
+        answer: "We operate where procurement demands discretion, speed, and precision, helping our clients meet goals that depend on reliability above all else."
+      },
+      {
+        question: "How do you ensure supplier quality?",
+        answer: "We provide supplier validation and compliance management with end-to-end oversight from sourcing to delivery."
+      },
+      {
+        question: "Do you handle technical specifications?",
+        answer: "Yes, we provide technical liaison between client and manufacturer, ensuring complex requirements are met with precision."
+      },
+      {
+        question: "How transparent is your process?",
+        answer: "We maintain a transparent, confidential, and accountable process throughout every procurement engagement."
+      }
+    ],
+    cta: "→ Request a Sourcing Proposal",
+
+    mainImage: service_details2,
+    secondaryImage: service_details2
+  },
 
   {
-    id: "svc-youth-001",
-    mainTitle: "Project Logistics Solutions",
-  mainDescription: "iW3 has expertise and experience in handling time-bound Project Logistics. Whenever you need to transport something unique, project logistics come into play. Categories such as Heavy Machinery, Equipment, Out Of Gauge (OOG) items, Defense Goods, Relief Material, Pharmaceuticals, Live Animals or any Emergency goods would come under the purview of Project Logistics. There is a lot of planning and administration involved in project logistics with little or no room for error. We work closely with our customers to ensure that the project is delivered on time and on budget. Our team of experts thoroughly organize every aspect of transportation which ensure successful execution of the project – be it by Air, Ocean, Road – or a mix of all three!",
-  subTitle: "Multimodal Transport for Complex Cargo",
-  subDescription: "With specialized handling facilities in 12 global hubs, we've successfully moved 850+ project cargo shipments in the last year alone. Our engineered logistics solutions incorporate route surveys, load testing, and contingency planning for high-value shipments. The average project under our management saves 18-22% in transport costs through optimal mode selection and cargo consolidation.",
-progressMetrics: [
+    id: "logistics",
+    seoTitle: "Project Logistics & Multimodal Transport | iW3",
+    metaDescription: "iW3 specializes in complex project logistics — heavy lift, OOG cargo, and time-critical multimodal transport across global hubs.",
+    mainTitle: "Logistics & Multimodal Transport",
+    mainDescription: "iW3 has extensive experience handling time-bound project logistics. From heavy machinery, defense goods, and relief material to live animals and emergency shipments—our teams manage end-to-end logistics with precision. We plan each movement in detail, ensuring successful execution by air, ocean, road, or multimodal transport.",
+    subTitle: "Multimodal Transport for Complex Cargo",
+    subDescription: "With specialized handling in 12 global hubs, we've moved 850+ project cargo shipments in the past year alone. Our engineered logistics solutions integrate route surveys, load testing, and contingency planning—saving clients up to 22% in transport costs.",
+    progressMetrics: [
       { title: "Successful Delivery", value: 95 },
       { title: "Happy Customers", value: 90 },
     ],
-  additionalDescription: "Our proprietary Project Control Tower provides real-time visibility of all project shipments, with predictive analytics for risk mitigation. We're currently implementing AI-powered stowage planning to maximize equipment utilization across all transport modes, projected to yield additional 15% efficiency gains by 2025.",
-  benefitsTitle: "Your Project in Expert Hands",
-  benefitsDescription: "We handle the complexities so you can focus on project execution.",
-  benefitsList: [
-    "Specialized cargo handling teams",
-    "Custom clearance experts",
-    "Route engineering services",
-    "Dedicated project managers",
-    "Insurance coordination",
-    "24/7 cargo monitoring"
-  ],
-  faqs: [
-    {
-      question: "What makes project logistics different?",
-      answer: "Project logistics requires precise phasing, specialized equipment, and exceptional coordination - we plan each movement considering weight distribution, road permits, tide schedules, and political climates where applicable."
-    },
-    {
-      question: "How do you handle oversized cargo?",
-      answer: "Our engineering team designs custom loading plans using CAD simulations, with escort vehicles and route surveys for shipments exceeding standard dimensions. We've moved items up to 450 metric tons."
-    },
-    {
-      question: "What's your emergency response capability?",
-      answer: "Our Global Rapid Response Team can mobilize appropriate transport within 6 hours for critical shipments, with standing contracts for Antonov AN-124 and heavy-lift ocean charter capacity."
-    },
-    {
-      question: "Do you provide turnkey site logistics?",
-      answer: "Yes, we offer complete site solutions including temporary storage yards, on-site cranes, and just-in-sequence delivery coordination for construction projects."
-    }
-  ],
-  // videoId: "ProjectLogisticsCaseStudy",
-  mainImage: service_details3, // Replace with actual project logistics image
-  secondaryImage: service_details3, // Replace with actual project logistics image
-  sections: [
-    {
-      title: "Cargo Aircraft Solutions",
-      content: "iW3 provides prompt and dedicated air cargo capacity whenever and wherever you need it most. When time is paramount, we provide you with the most suitable aircraft that results in seamless delivery to any location in the world. We also assist with documentation, origin pick-up and destination deliveries using our vast global agent network. We offer a wide range of air freight products to secure the ideal combination of delivery times, routing, commodity handling and freight pricing for each project we undertake. For example, we always strive to look for one-way availabilities and also to procure spot cargo from the market to optimize available cargo capacity on aircrafts being chartered by our customers. This often helps save immense costs for our customers. Wherever possible, we also combine scheduled airline capacity for one leg and operate full charter on the second leg, which always results in significant saving of overall air transportation cost. We are ready to take on your next air charter enquiry. We will take care of everything for you."
-    }
-  ]
-},
+    additionalDescription: "Our proprietary Project Control Tower provides real-time visibility and predictive analytics for risk mitigation. AI-powered stowage planning is expected to add another 15% efficiency by 2025. We manage every stage — air, ocean, or road — so you can focus on your project's execution while we ensure the movement behind it runs flawlessly.",
+    benefitsTitle: "Comprehensive Logistics Management",
+    benefitsDescription: "We handle the complexities so you can focus on project execution.",
+    benefitsList: [
+      "Specialized cargo handling teams",
+      "Custom clearance experts", 
+      "Route engineering services",
+      "Dedicated project managers",
+      "Insurance coordination",
+      "24/7 cargo monitoring"
+    ],
+    faqs: [
+      {
+        question: "What types of cargo do you handle?",
+        answer: "We specialize in heavy machinery, defense goods, relief material, live animals, emergency shipments, and any out-of-gauge items requiring specialized handling."
+      },
+      {
+        question: "How do you ensure cost efficiency?",
+        answer: "Our engineered logistics solutions with route optimization and cargo consolidation typically save clients 18-22% in transport costs compared to standard shipping."
+      },
+      {
+        question: "What visibility do you provide during transport?",
+        answer: "Our Project Control Tower provides real-time visibility with predictive analytics for risk mitigation throughout the entire logistics chain."
+      },
+      {
+        question: "Can you handle multimodal transport?",
+        answer: "Yes, we expertly coordinate air, ocean, and road transport, often combining multiple modes for optimal efficiency and cost savings."
+      }
+    ],
+    cta: "→  Plan Your Shipment",
+
+    mainImage: service_details3,
+    secondaryImage: service_details3,
+    sections: [
+      {
+        title: "Cargo Aircraft Solutions",
+        content: "iW3 provides prompt and dedicated air cargo capacity whenever and wherever you need it most. When time is paramount, we provide you with the most suitable aircraft that results in seamless delivery to any location in the world."
+      }
+    ]
+  },
   {
-    id: "svc-infra-003",
-     mainTitle: "Business Consulting Services",
-  mainDescription: "iW3 offers consulting services in various areas such as infrastructure projects, planning, procurement and logistics. Our panel of experts also provide advice on growth strategy, sales, people, operations and technology to match defined objectives and parameters of our customers.",
-  subTitle: "Strategic Guidance for Logistics & Infrastructure",
-  subDescription: "With 150+ successful consulting engagements across 25 countries, we bring market-specific insights and operational expertise to help businesses scale efficiently. Our consultants average 15 years of industry experience, delivering actionable strategies that have helped clients achieve 30-40% faster growth compared to industry benchmarks.",
- progressMetrics: [
+    id: "consulting",
+    seoTitle: "Business Consulting for Logistics & Infrastructure | iW3",
+    metaDescription: "iW3 delivers strategic consulting for logistics, procurement, and infrastructure projects — blending insight with implementation to drive measurable growth.",
+    mainTitle: "Business Consulting for Logistics & Infrastructure",
+    mainDescription: "iW3 provides consulting across infrastructure, logistics, and procurement. Our experts guide clients through planning, project management, and operational transformation.",
+    subTitle: "Consulting and Talent",
+    subDescription: "With 150+ successful consulting engagements across 25 countries, we bring deep market insights and data-backed strategy to drive measurable results. Our consultants average 15 years of industry experience and help clients achieve 30–40% faster growth compared to market benchmarks.",
+    progressMetrics: [
       { title: "Successful Delivery", value: 95 },
       { title: "Happy Customers", value: 90 },
     ],
-  additionalDescription: "We combine traditional consulting with hands-on implementation support, ensuring strategies translate into measurable results. Our proprietary assessment tools evaluate over 200 operational parameters to identify growth opportunities and efficiency gaps specific to your business context.",
-  benefitsTitle: "Transformative Business Expertise",
-  benefitsDescription: "We provide end-to-end consulting solutions tailored to your strategic objectives.",
-  benefitsList: [
-    "Cross-functional expert teams",
-    "Data-driven recommendations",
-    "Implementation roadmaps",
-    "Post-engagement support",
-    "Market-specific intelligence",
-    "Benchmarking against peers"
-  ],
-  faqs: [
-    {
-      question: "What industries do you specialize in?",
-      answer: "We focus on logistics, transportation, and infrastructure sectors, with deep expertise in air/sea freight, warehousing, last-mile delivery, and industrial project development."
-    },
-    {
-      question: "How do you measure consulting success?",
-      answer: "We define KPIs during discovery and provide quarterly impact reports tracking operational improvements, cost savings, and revenue growth attributable to our recommendations."
-    },
-    {
-      question: "What makes your approach unique?",
-      answer: "We combine top-tier strategy consulting with boots-on-the-ground operators who have actually run logistics businesses, ensuring practical, executable advice."
-    }
-  ],
-  // videoId: "ConsultingOverviewVideo",
-  mainImage: service_details4, // Replace with actual consulting image
-  secondaryImage: service_details4, // Replace with actual consulting image
-  sections: [
-    {
-      title: "Mergers & Acquisitions Advisory",
-      content: "We consult on mergers & acquisitions in the logistics industry as we believe that the time is ripe for industry consolidation on various fronts. This enables our customers to drive geographic expansion through inorganic growth and greater collaboration in the areas they want to focus on. Contact us today if your company is interested in growing its footprint in new geographies by means of acquisitions. Alternatively, if you believe that you have built a fantastic company over the years, and now want to exit to pursue other things in life, you can speak to us and we will find you a suitable buyer."
-    },
-    {
-      title: "Talent Acquisition Services",
-      content: "Having the right talent is most crucial to the success of your business. Good people offer more than just their skills, but they are the ones that sustain and drive your business. iW3's talent advisory team are well connected in the cargo and logistics domain to provide you the best talent to match your requirements. We use our market insights and our vast database of profiles to provide you with excellent candidate recommendations at every level. We will find the best candidate fit for your organization keeping in mind various important parameters such as skill sets, IQ, EQ and other leadership traits to fit your company's culture. Some of the core areas of expertise of our candidates include Air Freight, Ocean Freight, Surface transportation, e-Commerce logistics, Airport and Ocean port operations management. As a matter of principle, we process all requests, however we charge a service fee only on successful transactions."
-    }
-  ]
-},
+    additionalDescription: "We act as a link between buyers and sellers while also sourcing leadership and operational talent for logistics and product roles. Our network helps clients find both solutions and people — connecting strategy to execution.",
+    benefitsTitle: "Comprehensive Consulting Solutions",
+    benefitsDescription: "We provide end-to-end consulting solutions tailored to your strategic objectives.",
+    benefitsList: [
+      "Cross-functional expert teams",
+      "Data-driven recommendations",
+      "Implementation roadmaps", 
+      "Post-engagement support",
+      "Market-specific intelligence",
+      "Talent sourcing and placement"
+    ],
+    faqs: [
+      {
+        question: "What industries do you specialize in?",
+        answer: "We focus on logistics, transportation, and infrastructure sectors, with deep expertise in air/sea freight, warehousing, last-mile delivery, and industrial project development."
+      },
+      {
+        question: "How do you measure consulting success?",
+        answer: "We define KPIs during discovery and provide quarterly impact reports tracking operational improvements, cost savings, and revenue growth attributable to our recommendations."
+      },
+      {
+        question: "Do you provide talent solutions?",
+        answer: "Yes, we act as a link between buyers and sellers while sourcing leadership and operational talent for logistics and product roles."
+      },
+      {
+        question: "What makes your approach unique?",
+        answer: "We combine top-tier strategy consulting with boots-on-the-ground operators who have actually run logistics businesses, ensuring practical, executable advice."
+      }
+    ],
+    cta: "→ Book a Strategy Session",
+    mainImage: service_details4,
+    secondaryImage: service_details4,
+    sections: [
+      {
+        title: "Mergers & Acquisitions Advisory",
+        content: "We consult on mergers & acquisitions in the logistics industry as we believe that the time is ripe for industry consolidation. This enables our customers to drive geographic expansion through inorganic growth."
+      },
+      {
+        title: "Talent Acquisition Services", 
+        content: "Our talent advisory team are well connected in the cargo and logistics domain to provide you the best talent to match your requirements using our market insights and vast database of profiles."
+      }
+    ]
+  },
 ];
 
 export default serviceData;

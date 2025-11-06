@@ -17,10 +17,9 @@ const AboutArea = () => {
                   <div className="about__content-two">
                      <div className="section__title section__title-two mb-20">
                         <span className="sub-title">About us</span>
-                        <h2 className="title">TRUSTED
-PARTNER</h2>
+                        <h2 className="title">WHO WE ARE</h2>
                      </div>
-                     <p >iW3 began its journey with a goal to democratize industrial warehousing and logistics infrastructure. Having worked for several decades in the logistics, aviation and infrastructure domains, our team is of the firm belief that robust logistics infrastructure is a dire necessity for developing countries to scale up their economic outputs</p>
+                     <p >IW3 is a specialized logistics and consulting partner operating across industries that demand more than standard solutions. We work at the intersection of transportation, talent, and procurement, connecting businesses with critical resources and expertise.</p>
                      <div className="about__content-inner">
                         <div className="about__list-box about__list-box-two">
                            <ul className="list-wrap">
@@ -43,7 +42,7 @@ PARTNER</h2>
                            </div>
                         </div>
                      </div>
-                     <p>While designing and hustling to launch our digital infrastructure platform, we realized that we would be better positioned to tap interesting opportunities that presented itself in closely related areas of multi-modal logistics, procurement and advisory. Since then, we have been active in several logistics projects including providing dedicated cargo aircrafts for international transportation to consulting for potential mergers and acquisitions in the logistics domain across geographies.</p>
+                     <p>Our team combines deep operational knowledge with global reach. Whether it’s structuring a multimodal transport plan, securing niche products, or finding the right leaders for logistics and product roles—we deliver with trust and discretion.</p>
                   </div>
                </div>
             </div>

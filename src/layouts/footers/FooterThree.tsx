@@ -69,16 +69,16 @@ const FooterThree = () => {
                 <div className="footer__link footer__link-three">
                   <ul className="list-wrap">
                     <li>
-                      <Link href="/services-details/svc-infra-001">Infrastructure </Link>
+                      <Link href="/infrastructure">Infrastructure </Link>
                     </li>
                     <li>
-                      <Link href="/services-details/svc-infra-002">Procurement</Link>
+                      <Link href="/procurement">Procurement</Link>
                     </li>
                     <li>
-                      <Link href="/services-details/svc-youth-001">Logistics</Link>
+                      <Link href="/logistics">Logistics</Link>
                     </li>
                     <li>
-                      <Link href="/services-details/svc-infra-003">Consulting</Link>
+                      <Link href="/consulting">Consulting</Link>
                     </li>
                   </ul>
                 </div>

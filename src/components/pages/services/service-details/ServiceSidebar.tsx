@@ -13,7 +13,7 @@ const ServiceSidebar = () => {
           <div className="services__cat-list">
             <ul className="list-wrap">
               <li>
-                <Link href="/services-details/svc-infra-001">
+                <Link href="/infrastructure">
                   <span>
                     <i className="flaticon-warehouse"></i>Infrastructure
                   </span>{" "}
@@ -21,7 +21,7 @@ const ServiceSidebar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/services-details/svc-infra-002">
+                <Link href="/procurement">
                   <span>
                     <i className="flaticon-air-freight"></i>Procurement
                   </span>{" "}
@@ -29,7 +29,7 @@ const ServiceSidebar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/services-details/svc-youth-001">
+                <Link href="/logistics">
                   <span>
                     <i className="flaticon-train"></i>Logistics
                   </span>{" "}
@@ -37,7 +37,7 @@ const ServiceSidebar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/services-details/svc-infra-003">
+                <Link href="/consulting">
                   <span>
                     <i className="flaticon-truck"></i>Consulting
                   </span>{" "}
