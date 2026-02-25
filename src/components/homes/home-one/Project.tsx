@@ -20,9 +20,9 @@ const project_data: DataType[] = [
    {
       id: 1,
       img: project_1,
-      title: "Military Camp Supplies by Air",
+      title: "Field Camp Supplies by Air",
 
-      tag: "Our team has past experience in providing dedicated aircraft to transport foodstuff and general camp supplies to multiple military and relief camps across several countries. Goods were transported using multiple aircraft types like IL76, AN12, B747 and AN124 aircraft. Several hundred flights were operated over the years to support several relief missions in several geographies including Middle East, Asia and Africa"
+      tag: "Our team has past experience in providing dedicated aircraft to transport foodstuff and general camp supplies to multiple  relief camps across several countries. Goods were transported using multiple aircraft types like IL76, AN12, B747 and AN124 aircraft. Several hundred flights were operated over the years to support several relief missions in several geographies including Middle East, Asia and Africa"
    },
    {
       id: 2,
@@ -34,13 +34,13 @@ const project_data: DataType[] = [
    {
       id: 3,
       img: project_3,
-   title: "Emergency Logistics",
-   tag: "Our team has handled emergency logistics in the past. When a large automotive manufacturer in India required to import over 200 metric tons of spare parts for their factory in India and the goods were required within 3 days, the only option was to operate 2 full charter aircrafts to enable the goods to reach the factory on time to ensure no stoppage of the production line"
-},
+      title: "Emergency Logistics",
+      tag: "Our team has handled emergency logistics in the past. When a large automotive manufacturer in India required to import over 200 metric tons of spare parts for their factory in India and the goods were required within 3 days, the only option was to operate 2 full charter aircrafts to enable the goods to reach the factory on time to ensure no stoppage of the production line"
+   },
    {
       id: 4,
       img: project_2,
-   title: "Humanitarian Air Bridge",
+      title: "Humanitarian Air Bridge",
       tag: "During the COVID-19 pandemic, we established an air bridge operation to transport critical medical supplies including vaccines, PPE kits, and oxygen concentrators to remote areas across South Asia. Our team coordinated with 12 different governments and NGOs to deliver over 500 tons of medical cargo using a fleet of cargo aircraft and helicopters, ensuring timely delivery to regions with limited infrastructure access."
    },
 ];
@@ -84,7 +84,7 @@ const Project = () => {
    return (
       <section className="project__area project__bg" style={{ backgroundImage: `url(/assets/img/bg/vector_bg02.svg)` }}>
          {/* ... (keep your existing header markup) ... */}
-         
+
          <div className="container-fluid p-0 fix">
             <div className="project__item-wrap">
                <Swiper {...setting} modules={[Pagination]} className="project-active">
@@ -92,20 +92,20 @@ const Project = () => {
                      <SwiperSlide key={item.id} className="swiper-slide">
                         <div className="project__item">
                            <div className="project__thumb" style={{ marginBottom: '15px' }}>
-                             
-                                 <Image 
-                                    src={item.img} 
-                                    alt="img"
-                                    width={400}
-                                    height={300}
-                                    style={{
-                                       width: '100%',
-                                       height: 'auto',
-                                       display: 'block',
-                                       borderRadius: '8px 8px 0 0'
-                                    }}
-                                 />
-                        
+
+                              <Image
+                                 src={item.img}
+                                 alt="img"
+                                 width={400}
+                                 height={300}
+                                 style={{
+                                    width: '100%',
+                                    height: 'auto',
+                                    display: 'block',
+                                    borderRadius: '8px 8px 0 0'
+                                 }}
+                              />
+
                            </div>
                            <div className="project__content" style={{
                               background: '#0a1a3a', // Dark blue color
@@ -118,7 +118,7 @@ const Project = () => {
                                  <h2 className="title" style={{ color: '#fff' }}>
                                     <span style={{ color: 'inherit' }}>{item.title}</span>
                                  </h2>
-                                 <p style={{ 
+                                 <p style={{
                                     color: 'rgba(255,255,255,0.8)',
                                     margin: '10px 0 0 0',
                                     lineHeight: '1.5',
@@ -126,14 +126,14 @@ const Project = () => {
                                  }}>{item.tag}</p>
                               </div>
                               <div className="right-arrow" style={{ marginTop: '15px' }}>
-                                
-                                    <span style={{ filter: 'brightness(0) invert(1)' }}>
-                                       <InjectableSvg 
-                                          src="/assets/img/icon/right_arrow.svg" 
-                                          alt="" 
-                                       />
-                                    </span>
-                               
+
+                                 <span style={{ filter: 'brightness(0) invert(1)' }}>
+                                    <InjectableSvg
+                                       src="/assets/img/icon/right_arrow.svg"
+                                       alt=""
+                                    />
+                                 </span>
+
                               </div>
                            </div>
                         </div>

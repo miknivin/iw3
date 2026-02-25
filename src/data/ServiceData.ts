@@ -74,7 +74,6 @@ const serviceData = [
       "We procure and manage a range of high-impact products including:",
     benefitsList: [
       "Medical Diagnostic Kits",
-      "Defense Equipment",
       "Advanced Strategic Systems",
       "Aid & Relief Material",
       "Camp Supplies",
