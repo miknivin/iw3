@@ -65,7 +65,7 @@ const AdminContacts = () => {
 
   return (
     <div className="admin-container">
-      <style jsx>{`
+      <style>{`
         .admin-container {
           max-width: 1200px;
           margin: 0 auto;
@@ -249,11 +249,11 @@ const AdminContacts = () => {
           <p>Total Messages</p>
         </div>
         <div className="stat-card">
-          <h3>{contacts.filter(c => new Date(c.timestamp) > new Date(Date.now() - 24*60*60*1000)).length}</h3>
+          <h3>{contacts.filter(c => new Date(c.timestamp) > new Date(Date.now() - 24 * 60 * 60 * 1000)).length}</h3>
           <p>Last 24 Hours</p>
         </div>
         <div className="stat-card">
-          <h3>{contacts.filter(c => new Date(c.timestamp) > new Date(Date.now() - 7*24*60*60*1000)).length}</h3>
+          <h3>{contacts.filter(c => new Date(c.timestamp) > new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)).length}</h3>
           <p>This Week</p>
         </div>
       </div>
@@ -308,7 +308,7 @@ const AdminContacts = () => {
                     <label>Name:</label>
                     <div className="value">{selectedContact.name}</div>
                   </div>
-                  
+
                   <div className="detail-field">
                     <label>Email:</label>
                     <div className="value">
@@ -317,7 +317,7 @@ const AdminContacts = () => {
                       </a>
                     </div>
                   </div>
-                  
+
                   {selectedContact.phone && (
                     <div className="detail-field">
                       <label>Phone:</label>
@@ -328,17 +328,17 @@ const AdminContacts = () => {
                       </div>
                     </div>
                   )}
-                  
+
                   <div className="detail-field">
                     <label>Subject:</label>
                     <div className="value">{selectedContact.subject || 'No Subject'}</div>
                   </div>
-                  
+
                   <div className="detail-field message-field">
                     <label>Message:</label>
                     <div className="value">{selectedContact.message}</div>
                   </div>
-                  
+
                   <div className="detail-field">
                     <label>Submitted:</label>
                     <div className="value">
