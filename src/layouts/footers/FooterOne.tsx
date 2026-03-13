@@ -44,7 +44,7 @@ const FooterOne = () => {
                 </div>
                 <div className="footer__content">
                   <p>
-                    iW3 provides Infrastructure, Procurement, Logistics and
+                    iW3 provides Infrastructure, Procurement, Investment and
                     Consulting Services in the most secure and expedited manner
                   </p>
                 </div>
@@ -62,7 +62,7 @@ const FooterOne = () => {
                       <Link href="/procurement">Procurement</Link>
                     </li>
                     <li>
-                      <Link href="/logistics">Logistics</Link>
+                      <Link href="/investment">Investment</Link>
                     </li>
                     <li>
                       <Link href="/consulting">Consulting</Link>
@@ -102,7 +102,7 @@ const FooterOne = () => {
                       <p>
                         IW3 Infralog LLC-FZ,
                         <br />
-                        Meydan Free Zone, 
+                        Meydan Free Zone,
                         <br />
                         Nad Al Sheba,
                         <br />
@@ -115,7 +115,7 @@ const FooterOne = () => {
                       <i className="flaticon-telephone"></i>
                       <Link href="tel:+97147777222">+97147777222 , +971559353359</Link>
                     </li>
-                    
+
                     <li className="flex items-start gap-3">
                       <i className="fas fa-envelope mt-2"></i>
                       <Link href="mailto:sales@iw3.in">sales@iw3.in</Link>

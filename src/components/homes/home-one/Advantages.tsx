@@ -22,7 +22,7 @@ const Advantages: React.FC = () => {
       },
       {
          title: "Global Network",
-         desc: "With a worldwide network of partners, carriers, and agents, we ensure reliable procurement and logistics execution at competitive rates with consistent delivery performance.",
+         desc: "With a worldwide network of partners, carriers, and agents, we ensure reliable procurement and investment execution at competitive rates with consistent delivery performance.",
       },
    ];
 

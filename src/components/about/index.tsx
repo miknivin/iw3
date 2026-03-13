@@ -1,10 +1,10 @@
-
+"use client";
 import Breadcumb from "../common/Breadcumb"
 // import Brand from "../homes/home-one/Brand"
 // import Testimonial from "../homes/home-one/Testimonial"
 // import Team from "../homes/home-three/Team"
 import AboutArea from "./AboutArea"
-import Counter from "./Counter"
+import AboutImages from "./AboutImages"
 import FeaturesArea from "./FeaturesArea"
 // import Pricing from "./Pricing"
 // import VideoArea from "./VideoArea"
@@ -23,7 +23,7 @@ const About = () => {
             <AboutArea />
             <FeaturesArea />
             {/* <VideoArea /> */}
-            <Counter />
+            <AboutImages />
             {/* <Pricing /> */}
             {/* <Team style={false} /> */}
             {/* <Testimonial style={true} /> */}

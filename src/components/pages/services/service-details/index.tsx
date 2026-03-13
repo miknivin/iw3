@@ -20,7 +20,7 @@ const ServiceDetails = ({ serviceName }: ServiceDetailsProps) => {
             <Breadcumb title={serviceName || "Our Services"} sub_title="Service Details" />
             <ServiceDetailsArea />
          </main>
-         <CTA />
+            {/* <CTA /> */}
          <FooterOne />
       </div>
    )

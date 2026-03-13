@@ -26,7 +26,7 @@ const HomeOne = () => {
          <HeaderOne />
          <main className="fix">
             <Hero />
-            <About />
+            {/* <About /> */}
             {/* <Brand style={false} /> */}
             <Service />
             <Advantages />
@@ -36,12 +36,12 @@ const HomeOne = () => {
             <Project />
             {/* <VideoArea style={false} /> */}
             {/* <RequestArea style={false} /> */}
-             {/* <Testimonial style={false} />  */}
-{/*           
+            {/* <Testimonial style={false} />  */}
+            {/*           
             <WorkArea /> */}
             {/* <Blog /> */}
-            <StatsSection />
-            <ContactMap />
+            {/* <StatsSection /> */}
+            {/* <ContactMap /> */}
          </main>
          <FooterOne />
       </div>

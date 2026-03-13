@@ -45,7 +45,7 @@ const menu_data: MenuItem[] = [
             
          },
          {
-             link: "/logistics", title: "Logistics"
+             link: "/investment", title: "Investment"
             
          },
          {

@@ -22,11 +22,11 @@ const About = () => {
           <div className="col-lg-6">
             <div className="about__content">
               <div className="section__title mb-15">
-                <span className="sub-title">End-to-End Logistics Solutions</span>
-                <h2 className="title">Optimizing Your Supply Chain Efficiency</h2>
+                <span className="sub-title">Strategic Investment & Infrastructure</span>
+                <h2 className="title">Unlocking Potential Through Global Capital</h2>
               </div>
               <p>
-                Our comprehensive logistics services ensure seamless transportation and warehousing solutions tailored to your business requirements, delivering reliability and cost-effectiveness across all stages of your supply chain.
+                iW3 bridges the gap between capital and development, providing strategic investment and infrastructure solutions that drive industrial growth. We specialize in project financing, capital advisory, and end-to-end support for high-impact projects worldwide.
               </p>
 
               <div className="about__content-bottom mt-30">

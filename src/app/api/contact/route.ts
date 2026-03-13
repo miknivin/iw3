@@ -147,10 +147,10 @@ export async function POST(request: NextRequest) {
           
           <p>In the meantime, feel free to explore our services:</p>
           <ul>
-            <li><strong>Infrastructure:</strong> Industrial warehousing and logistics infrastructure</li>
-            <li><strong>Procurement:</strong> Time-bound project logistics expertise</li>
-            <li><strong>Logistics:</strong> Specific product procurement requirements</li>
-            <li><strong>Consulting:</strong> Infrastructure projects, planning, procurement and logistics</li>
+            <li><strong>Infrastructure:</strong> Industrial warehousing and investment infrastructure</li>
+            <li><strong>Procurement:</strong> Strategic sourcing and specialized procurement solutions</li>
+            <li><strong>Investment:</strong> Strategic investment and project logistics expertise</li>
+            <li><strong>Consulting:</strong> Infrastructure projects, planning, and strategic consulting</li>
           </ul>
           
           <p>Best regards,<br>The IW3 Team</p>

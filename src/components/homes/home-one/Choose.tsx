@@ -61,7 +61,7 @@ export default function Choose() {
             >
               <Image
                 src={choose_thumb1}
-                alt="IW3 Logistics Solutions"
+                alt="IW3 Investment Solutions"
                 style={{
                   borderRadius: "16px",
                   boxShadow: "0 15px 35px rgba(0,0,0,0.1)",
@@ -106,7 +106,7 @@ export default function Choose() {
                   margin: 0,
                 }}
               >
-                We aren’t just another logistics or procurement firm. Clients trust us because:
+                We aren’t just another investment or procurement firm. Clients trust us because:
               </p>
 
               {/* Bullet Points */}

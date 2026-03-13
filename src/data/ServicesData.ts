@@ -8,9 +8,10 @@ import service_4 from "@/assets/img/services/services_img14.jpg"
 // import service_6 from "@/assets/img/services/services_img08.jpg"
 // import service_7 from "@/assets/img/services/services_img09.jpg"
 import infrastructure_icon from "@/assets/img/icon/img4.png" // New import for Infrastructure icon
-import procurement_icon from "@/assets/img/icon/img2.png"   
+import procurement_icon from "@/assets/img/icon/img2.png"
 import logistics_icon from "@/assets/img/icon/img3.png"
 import consulting_icon from "@/assets/img/icon/img1.png"
+import investment_icon from "@/assets/img/icon/investment.png"
 
 interface DataType {
    id: string | number;
@@ -40,12 +41,12 @@ const service_data: DataType[] = [
       desc: "We source, validate, and deliver specialized products and systems across critical sectors, combining discretion with technical depth",
    },
    {
-      id: "logistics",
+      id: "investment",
       page: "home_1",
       img: service_3,
-      icon: logistics_icon, // Changed to image
-      title: "Logistics",
-      desc: "We handle complex project logistics across air, sea, and road — delivering high-value cargo safely, efficiently, and on schedule",
+      icon: investment_icon, // Updated to Investment icon
+      title: "Investment",
+      desc: "We bridge the gap between global capital and high-impact infrastructure projects through strategic advisory and financial depth.",
    },
    {
       id: "consulting",

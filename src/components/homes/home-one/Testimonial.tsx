@@ -27,7 +27,7 @@ const testi_data: DataType[] = [
       id: 1,
       title: "Daniel",
       designation: "",
-      desc: (<>“ Your team  emergency air logistics solution saved our automotive production line from a 3-day shutdown - the precision in coordinating those charter flights with zero margin for error was remarkable.”</>),
+      desc: (<>“ Your team  emergency air investment solution saved our automotive production line from a 3-day shutdown - the precision in coordinating those charter flights with zero margin for error was remarkable.”</>),
    },
    {
       id: 2,

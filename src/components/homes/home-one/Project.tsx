@@ -17,13 +17,13 @@ interface DataType {
 }
 
 const project_data: DataType[] = [
-   {
-      id: 1,
-      img: project_1,
-      title: "Field Camp Supplies by Air",
+   // {
+   //    id: 1,
+   //    img: project_1,
+   //    title: "Field Camp Supplies by Air",
 
-      tag: "Our team has past experience in providing dedicated aircraft to transport foodstuff and general camp supplies to multiple  relief camps across several countries. Goods were transported using multiple aircraft types like IL76, AN12, B747 and AN124 aircraft. Several hundred flights were operated over the years to support several relief missions in several geographies including Middle East, Asia and Africa"
-   },
+   //    tag: "Our team has past experience in providing dedicated aircraft to transport foodstuff and general camp supplies to multiple  relief camps across several countries. Goods were transported using multiple aircraft types like IL76, AN12, B747 and AN124 aircraft. Several hundred flights were operated over the years to support several relief missions in several geographies including Middle East, Asia and Africa"
+   // },
    {
       id: 2,
       img: project_2,
@@ -34,7 +34,7 @@ const project_data: DataType[] = [
    {
       id: 3,
       img: project_3,
-      title: "Emergency Logistics",
+      title: "Strategic Capital Solutions",
       tag: "Our team has handled emergency logistics in the past. When a large automotive manufacturer in India required to import over 200 metric tons of spare parts for their factory in India and the goods were required within 3 days, the only option was to operate 2 full charter aircrafts to enable the goods to reach the factory on time to ensure no stoppage of the production line"
    },
    {

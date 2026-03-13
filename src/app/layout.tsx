@@ -5,11 +5,11 @@ const isDev = process.env.NODE_ENV === "development";
 
 export const metadata: Metadata = {
   title: {
-    default: "iW3 - Logistics, Infrastructure & Procurement Solutions",
+    default: "iW3 - Investment, Infrastructure & Procurement Solutions",
     template: "%s | iW3"
   },
-  description: "iW3 provides comprehensive logistics, infrastructure, and procurement solutions globally. Expert services in project logistics, strategic procurement, and infrastructure development.",
-  keywords: "logistics, infrastructure, procurement, supply chain, project logistics, strategic consulting, iW3",
+  description: "iW3 provides comprehensive investment, infrastructure, and procurement solutions globally. Expert services in strategic investment, procurement, and infrastructure development.",
+  keywords: "investment, infrastructure, procurement, supply chain, strategic investment, strategic consulting, iW3",
   authors: [{ name: "iW3" }],
   creator: "iW3",
   publisher: "iW3",

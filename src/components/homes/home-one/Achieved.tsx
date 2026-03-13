@@ -20,7 +20,7 @@ const Achieved: React.FC = () => {
                   <div className="achieved__img">
                      <Image
                         src={achieve_img}
-                        alt="IW3 Container Logistics"
+                        alt="IW3 Strategic Investment"
                         className="wow bounceInDown"
                         data-wow-delay=".3s"
                      />

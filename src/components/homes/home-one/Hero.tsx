@@ -29,18 +29,20 @@ const Hero = () => {
                         data-aos="fade-up"
                         data-aos-delay="400"
                      >
-                        <span>Engineering Reliability.</span> <span>Delivering Scale.</span> <span>Building the Future of Logistics and Infrastructure.</span>
+                        <span>
+                           Scalable Investments.
+                        </span> <span>Enhanced Infrastructure and Creativity.</span>
                      </h5>
 
                      <div className="logistics__features">
                         <div className="logistics__feature-item" style={{ textAlign: 'justify', wordSpacing: 'normal' }}>
-                           <h6 style={{ 
-                              lineHeight: '1.5', 
+                           <h6 style={{
+                              lineHeight: '1.5',
                               marginBottom: '1rem',
                               wordSpacing: 'normal',
                               letterSpacing: 'normal'
                            }}>
-                              <strong>iW3 operates at the intersection of logistics, procurement, and strategic consulting</strong> — enabling projects that demand precision, scale, and trust. We work with businesses, investors, and government organizations to build infrastructure, move goods, and deliver solutions where reliability matters most.
+                              <strong>IW3 operates at the intersection of investment, infrastructure, and strategic creative consulting</strong> — enabling projects that demand precision, scale, and trust. We work with businesses, investors, and government organizations to build infrastructure, move goods, and deliver solutions where reliability and time matters most.
                            </h6>
                         </div>
                      </div>
@@ -48,17 +50,17 @@ const Hero = () => {
                      <p
                         data-aos="fade-up"
                         data-aos-delay="600"
-                        style={{ 
+                        style={{
                            lineHeight: '1.6',
                            textAlign: 'justify',
                            wordSpacing: 'normal',
                            letterSpacing: 'normal'
                         }}
                      >
-                        Our global network spans partners, carriers, and agents across key trade routes, backed by deep domain expertise and a commitment to execution excellence. Every service we provide — from air cargo deployment to complex procurement — is designed to <strong>simplify what&apos;s complicated</strong> and make it work efficiently.
+                        Our network spans strong partnerships across geographies, backed by deep domain expertise and a commitment to execution excellence. Every service we provide — from securing investment to deployment to procurement — is designed to <strong>simplify what&apos;s complicated</strong> and make it work efficiently.
                      </p>
 
-                     
+
                      <div
                         className="d-flex gap-3 flex-wrap"
                         data-aos="fade-up"

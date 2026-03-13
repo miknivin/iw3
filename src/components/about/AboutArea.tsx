@@ -19,7 +19,7 @@ const AboutArea = () => {
                         <span className="sub-title">About us</span>
                         <h2 className="title">WHO WE ARE</h2>
                      </div>
-                     <p >IW3 is a specialized logistics and consulting partner operating across industries that demand more than standard solutions. We work at the intersection of transportation, talent, and procurement, connecting businesses with critical resources and expertise.</p>
+                     <p >IW3 was formed with the intent of creating impactful infrastructure projects. Delving into the ecosystem enabled us to expand into related core areas involving investment, design, procurement and transportation.</p>
                      <div className="about__content-inner">
                         <div className="about__list-box about__list-box-two">
                            <ul className="list-wrap">
@@ -42,7 +42,8 @@ const AboutArea = () => {
                            </div>
                         </div>
                      </div>
-                     <p>Our team combines deep operational knowledge with global reach. Whether it’s structuring a multimodal transport plan, securing niche products, or finding the right leaders for logistics and product roles—we deliver with trust and discretion.</p>
+                     <p>IW3 currently operates at the intersection of investment, infrastructure, and strategic creative consulting — enabling projects that demand precision, scale, and trust. We work with businesses, investors, and government organizations to build infrastructure, move goods, and deliver solutions where reliability and time matters most.</p>
+                      <p>Our network spans strong partnerships across geographies, backed by deep domain expertise and a commitment to execution excellence. Every service we provide — from securing investment to deployment to procurement — is designed to simplify what's complicated and make it work efficiently.</p>
                   </div>
                </div>
             </div>
