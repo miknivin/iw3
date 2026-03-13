@@ -4,7 +4,7 @@ import Link from "next/link"
 
 import banner_img from "@/assets/img/banner/iw3.6.png"
 import shape_1 from "@/assets/img/banner/banner_shape.png"
-import shape_2 from "@/assets/img/banner/banner_iCONT green.png"
+import shape_2 from "@/assets/img/banner/iw3.png"
 
 const Hero = () => {
    return (
@@ -98,6 +98,7 @@ const Hero = () => {
                alt="img"
                className="wow bounceInDown"
                data-wow-delay=".3s"
+               style={{ top: '25%', right: '0' }}
             />
          </div>
       </section>
