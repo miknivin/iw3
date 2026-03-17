@@ -35,7 +35,7 @@ const project_data: DataType[] = [
       id: 3,
       img: project_3,
       title: "Strategic Capital Solutions",
-      tag: "Our team has handled emergency logistics in the past. When a large automotive manufacturer in India required to import over 200 metric tons of spare parts for their factory in India and the goods were required within 3 days, the only option was to operate 2 full charter aircrafts to enable the goods to reach the factory on time to ensure no stoppage of the production line"
+      tag: "Our team is specialised in capital raising, governance and consulting services. Our experience of alternative investments combined with our strong relationships with investors in the region enables us to provide several creative value added services and the advantages of global distribution through a single channel"
    },
    {
       id: 4,

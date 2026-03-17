@@ -9,9 +9,9 @@ const ContactArea = () => {
             <div className="row">
                <div className="col-12">
                   <div className="contact__description text-center mb-5">
-                     <h2 className="title">Let&apos;s Talk</h2>
+                     <h2 className="title">Contact Us</h2>
                      <p className="contact__description-text">
-                        Whether you&apos;re moving a critical shipment, sourcing specialized solutions, or looking for the right people, IW3 is here to help.
+                        Message us for more details
                      </p>
                   </div>
                </div>

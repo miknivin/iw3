@@ -6,10 +6,10 @@ import service_details4 from "@/assets/img/services/services_img14.jpg";
 const serviceData = [
   {
     id: "infrastructure",
-    seoTitle: "Investment Infrastructure Solutions | iW3 Global",
+    seoTitle: " Infrastructure Solutions | iW3 Global",
     metaDescription:
       "iW3 builds scalable investment infrastructure across emerging markets — warehousing, ports, and transport systems designed to power industrial growth and investment opportunities.",
-    mainTitle: "Investment Infrastructure Solutions",
+    mainTitle: " Infrastructure Solutions",
     mainDescription:
       "iW3 began its journey with a goal to democratize industrial warehousing and investment infrastructure. We believe that strong investment infrastructure is essential for developing countries to scale their economic outputs and compete globally with quality products at competitive prices. Developing nations face a clear gap in investment infrastructure, driving up logistics costs to 12–13% of GDP compared to 6–7% in developed countries. Bridging this gap is critical for long-term growth.",
     subTitle: "Next-Level Investment Around the World",
@@ -109,10 +109,10 @@ const serviceData = [
 
   {
     id: "investment",
-    seoTitle: "Strategic Investment & Capital Advisory | iW3",
+    seoTitle: "Strategic Investment & Capital  | iW3",
     metaDescription:
       "iW3 provides strategic investment solutions and capital advisory for infrastructure and industrial projects across global markets.",
-    mainTitle: "Strategic Investment & Capital Advisory",
+    mainTitle: "Strategic Investment & Capital ",
     mainDescription:
       "At iW3, we believe that strategic investment is the engine of sustainable infrastructure development. Our investment advisory team focuses on bridging the gap between global capital and high-impact projects. We provide end-to-end support for project financing, asset management, and strategic growth initiatives, ensuring that every dollar deployed creates measurable value and long-term stability.",
     subTitle: "Unlocking Capital for Global Growth",

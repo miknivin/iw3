@@ -2,7 +2,7 @@ import InjectableSvg from "@/components/common/InjectableSvg"
 import Image from "next/image"
 import Link from "next/link"
 
-import banner_img from "@/assets/img/banner/iw3.6.png"
+import banner_img from "@/assets/img/banner/iw32.png"
 import shape_1 from "@/assets/img/banner/banner_shape.png"
 import shape_2 from "@/assets/img/banner/iw3.png"
 
@@ -85,6 +85,9 @@ const Hero = () => {
                         alt="img"
                         data-aos="fade-left"
                         data-aos-delay="800"
+                        quality={100}
+                        priority={true}
+                        unoptimized={true}
                      />
                   </div>
                </div>
